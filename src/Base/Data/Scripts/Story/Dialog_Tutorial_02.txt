@@ -1,0 +1,382 @@
+[CHAPTER 0]
+
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+
+TEXT TEXT_STORY_TUTORIAL_REBEL_ACT02_03
+# Move fleet into orbit above Kashyyyk.
+
+NEWLINE 1
+
+TEXT TEXT_SPEECH_TUTORIAL_REBEL_ACT02_04
+# Hint: Units within the Galactic View are represented by stacks of units, known as Fleets. The strongest unit
+# within a Fleet is always displayed on top. Move these ground forces into orbit, by dragging them from the
+# surface of Kashyyyk into one of the available slots located above the planet. This will prepare them for
+# space travel.
+
+# DIALOG TUTORIAL_REBEL_ACT02_04
+
+
+[CHAPTER 1]
+
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+
+TEXT TEXT_STORY_TUTORIAL_REBEL_ACT02_08
+# Move fleet to Bothawui.
+
+NEWLINE 1
+
+TEXT TEXT_SPEECH_TUTORIAL_REBEL_ACT02_09
+# Hint: Whenever a system has been selected, a ring is also displayed. This ring indicates the approximate
+# distance that a fleet can travel into unexplored territory, from that planet.
+
+# DIALOG TUTORIAL_REBEL_ACT02_09
+
+
+[CHAPTER 2]
+
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+
+TEXT TEXT_STORY_TUTORIAL_REBEL_ACT02_13
+# Combine Fleets at Bothawui.
+
+NEWLINE 1
+
+TEXT TEXT_SPEECH_TUTORIAL_REBEL_ACT02_68
+# Hint: Combining two fleets will create a single fleet that is larger and more powerful.
+# To combine your fleets, simply drag and drop one fleet icon onto another.
+
+# DIALOG TUTORIAL_REBEL_ACT02_68
+
+
+[CHAPTER 3]
+
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+
+TEXT TEXT_STORY_TUTORIAL_REBEL_ACT02_111
+# Move fleet into orbit above Ryloth.
+
+NEWLINE 1
+
+TEXT TEXT_SPEECH_TUTORIAL_REBEL_ACT02_109
+# Hint: Ryloth is currently unoccupied. This means that it should be an easy planet to capture.
+# Begin the process of capturing Ryloth by moving your forces into orbit above Ryloth.
+
+# DIALOG TUTORIAL_REBEL_ACT02_109
+
+
+[CHAPTER 4]
+
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+
+TEXT TEXT_STORY_TUTORIAL_REBEL_ACT02_113
+# Move fleet to the surface of Ryloth.
+
+NEWLINE 1
+
+TEXT TEXT_SPEECH_TUTORIAL_REBEL_ACT02_110
+# Hint: Your forces must occupy the surface of a planet in order to capture it. To do this, simply move your 
+# fleet into the ground slot located near the center of the planet.
+
+# DIALOG TUTORIAL_REBEL_ACT02_110
+
+
+[CHAPTER 5]
+
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+
+TEXT TEXT_STORY_TUTORIAL_REBEL_ACT02_96
+# Zoom in on Ryloth.
+
+NEWLINE 1
+
+TEXT TEXT_SPEECH_TUTORIAL_REBEL_ACT02_115
+# Hint: Let's take a closer look at Ryloth. To access a more detailed view of a planet, select the planet,
+# and then click on the Zoom-In icon, located on the Mini-Map.
+
+# DIALOG TUTORIAL_REBEL_ACT02_115
+
+
+[CHAPTER 6]
+
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+
+TEXT TEXT_STORY_TUTORIAL_REBEL_ACT02_100
+# Build barracks.
+
+NEWLINE 1
+
+TEXT TEXT_SPEECH_TUTORIAL_REBEL_ACT02_72
+# Hint: You will need to build a Barracks before you can recruit infantry. Building a Barracks will provide
+# you with basic ground defenses, as well as the ability to recruit infantry units. Switch to ground
+# production mode by selecting the ground production tab. Then, build a Barracks by clicking on the
+# Barracks icon.
+
+# DIALOG TUTORIAL_REBEL_ACT02_72
+
+
+[CHAPTER 7]
+
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+
+TEXT TEXT_STORY_TUTORIAL_REBEL_ACT02_27
+# Recruit two infantry platoons.
+
+NEWLINE 1
+
+TEXT TEXT_SPEECH_TUTORIAL_REBEL_ACT02_70
+# Hint: You will need to create ground forces in order to defend the surface of the planet. Since you have
+# built a barracks you now have the ability to create more ground units. Switch to ground production mode
+# by selecting the ground production tab. Then, recruit two Rebel Infantry squads by clicking twice on the
+# Rebel Infantry icon.
+
+# DIALOG TUTORIAL_REBEL_ACT02_70
+
+
+[CHAPTER 8]
+
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+
+TEXT TEXT_STORY_TUTORIAL_REBEL_ACT02_102
+# Construct a Space Station on Ryloth.
+
+NEWLINE 1
+
+TEXT TEXT_SPEECH_TUTORIAL_REBEL_ACT02_79
+# Hint: You will need to build a Space Station before you can build space units. Building a Space Station
+# will provide you with basic space defenses, as well as the ability to build space units. Switch to space
+# production mode by selecting the space production tab. Then, build a Space Station by clicking on the
+# Space Station icon.
+
+# DIALOG TUTORIAL_REBEL_ACT02_79
+
+
+[CHAPTER 9]
+
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+
+TEXT TEXT_STORY_TUTORIAL_REBEL_ACT02_30
+# Construct 2 X-Wing Squadrons.
+
+NEWLINE 1
+
+TEXT TEXT_SPEECH_TUTORIAL_REBEL_ACT02_71
+# Hint: You will also need to create a space fleet in order to protect the space around the planet. Now that
+# you have created a fully operational space station, you have the ability to build ships. Switch to space
+# production mode by selecting the space production tab. Then, build two X-Wing Fighter squadrons by clicking
+# twice on the X-Wing Fighter icon.
+
+# DIALOG TUTORIAL_REBEL_ACT02_71
+
+
+[CHAPTER 10]
+
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+
+TEXT TEXT_STORY_TUTORIAL_REBEL_ACT02_94
+# Recruit a Smuggler on Bothawui.
+
+NEWLINE 1
+
+TEXT TEXT_SPEECH_TUTORIAL_REBEL_ACT02_74
+# Hint: Smugglers can provide additional income that can be useful whenever you are unable to capture
+# enemy planets.
+
+# DIALOG TUTORIAL_REBEL_ACT02_74
+
+
+[CHAPTER 11]
+
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+
+TEXT TEXT_SPEECH_TUTORIAL_REBEL_ACT02_24
+# Siphon Credits from Nal Hutta.
+
+NEWLINE 1
+
+TEXT TEXT_SPEECH_TUTORIAL_REBEL_ACT02_69
+# Hint: Smugglers are spy units that can be used to increase your credit supply, without the need to capture
+# planets.  A Smuggler is available on Bothawui because a Cantina is present on this planet.  To Steal Credits
+# from the Empire drag the Smuggler unit to the Steal Credits slot on Nal Hutta.
+
+# DIALOG TUTORIAL_REBEL_ACT02_69
+
+
+[CHAPTER 12]
+
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+
+TEXT TEXT_STORY_TUTORIAL_REBEL_ACT02_34
+# Steal technology from Nal Hutta.
+
+NEWLINE 1
+
+TEXT TEXT_SPEECH_TUTORIAL_REBEL_ACT02_35
+# Hint: The Rebel Alliance gains new technology by stealing it directly from Imperial planets. Move R2-D2 and
+# C-3PO to the Steal slot on Nal Hutta to steal technology from the Empire.
+
+# DIALOG TUTORIAL_REBEL_ACT02_35
+
+
+[CHAPTER 13]
+
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+
+TEXT TEXT_STORY_TUTORIAL_REBEL_ACT02_37A
+# Construct a Base Shield Generator.
+
+NEWLINE 1
+
+TEXT TEXT_SPEECH_TUTORIAL_REBEL_ACT02_38
+# Hint: A Power Generator will be built automatically for any structures that require power to function,
+# including Base Shield Generators.  Remember - you can zoom-in on a planet to see any units and structures
+# that you may have built.
+
+# DIALOG TUTORIAL_REBEL_ACT02_38
+
+
+[CHAPTER 14]
+
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+
+TEXT TEXT_STORY_TUTORIAL_REBEL_ACT02_47
+# Zoom into Bothawui.
+
+NEWLINE 1
+
+TEXT TEXT_SPEECH_TUTORIAL_REBEL_ACT02_06
+# Hint: To access a more detailed view of a selected planet, click on the zoom-in icon, located on the Mini-Map.
+
+# DIALOG TUTORIAL_REBEL_ACT02_06
+
+
+[CHAPTER 15]
+
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+
+TEXT TEXT_STORY_TUTORIAL_REBEL_ACT02_43
+# Create a Raid Fleet.
+
+NEWLINE 1
+
+TEXT TEXT_SPEECH_TUTORIAL_REBEL_ACT02_50
+# Create a raid fleet by dragging the ground units shown here into orbit. To move a unit into orbit, simply drag
+# and drop the units to the desired fleet position.
+
+# DIALOG TUTORIAL_REBEL_ACT02_50
+
+
+[CHAPTER 16]
+
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+
+TEXT TEXT_STORY_TUTORIAL_REBEL_ACT02_52
+# Deploy a Raid fleet to Tatooine.
+
+NEWLINE 1
+
+TEXT TEXT_SPEECH_TUTORIAL_REBEL_ACT02_53
+# Hint: You will now need to bypass the Empire space units positioned above Tatooine. To do this, simply drag the
+# Rebel Raid Fleet from Bothawui to the Raid slot located on Tatooine. This will place the infantry units
+# directly on the surface of Tatooine.
+
+# DIALOG TUTORIAL_REBEL_ACT02_53
+
+[CHAPTER 17]
+
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+
+TEXT TEXT_STORY_TUTORIAL_REBEL_ACT02_98
+# Zoom-Out from Ryloth.
+
+NEWLINE 1
+
+TEXT TEXT_SPEECH_TUTORIAL_REBEL_ACT02_73
+# Hint: To zoom-out from a system, click on the zoom icon, located on the command bar.
+
+[CHAPTER 18]
+
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+
+TEXT TEXT_STORY_TUTORIAL_REBEL_ACT02_51
+# Zoom-Out from Bothawui
+
+NEWLINE 1
+
+TEXT TEXT_SPEECH_TUTORIAL_REBEL_ACT02_73
+# Hint: To zoom-out from a system, click on the zoom icon, located on the command bar.

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--position on the screen, logical units, in following system:
+
+		(-1, -1)  ......   (1, -1)
+			|				  |
+			|				  |
+		(-1,  1)  ......   (1, 1)        
+-->
+
+<RadarMap>
+	<RadarMapEvents>
+	
+		<Radar_Map_Event name="Default_Click">
+			<Event_Model_Name>I_minimap_default_click.alo</Event_Model_Name>
+			<Event_Model_Scale>0.001</Event_Model_Scale>
+			<Event_Duration>.8</Event_Duration>
+			<Event_Single_Instance>No</Event_Single_Instance>
+		</Radar_Map_Event>
+
+		<Radar_Map_Event name="Default_Attack_Click">
+			<Event_Model_Name>I_minimap_attack_move_click.alo</Event_Model_Name>
+			<Event_Model_Scale>0.001</Event_Model_Scale>
+			<Event_Duration>.8</Event_Duration>
+			<Event_Single_Instance>No</Event_Single_Instance>
+		</Radar_Map_Event>
+
+
+		<Radar_Map_Event name="Default_Double_Click">
+			<Event_Model_Name>I_minimap_death_target.alo</Event_Model_Name>
+			<Event_Model_Scale>0.001</Event_Model_Scale>
+			<Event_Duration>.8</Event_Duration>
+			<Event_Single_Instance>No</Event_Single_Instance>
+		</Radar_Map_Event>
+		
+		<Radar_Map_Event name="Default_Unit_Die">
+			<Event_Model_Name>I_minimap_death_target.alo</Event_Model_Name>
+			<Event_Model_Scale>0.002</Event_Model_Scale>
+			<Event_Duration>1.0</Event_Duration>
+			<Event_Single_Instance>No</Event_Single_Instance>
+		</Radar_Map_Event>
+		
+		<Radar_Map_Event name="Default_Control_Point_Transition">
+			<Event_Model_Name>I_minimap_control_point.alo</Event_Model_Name>
+			<Event_Model_Scale>0.002</Event_Model_Scale>
+			<Event_Duration>1.0</Event_Duration>
+			<Event_Single_Instance>No</Event_Single_Instance>
+		</Radar_Map_Event>
+	
+		<Radar_Map_Event name="Default_Beacon_Placement">
+			<Event_Model_Name>I_minimap_beacon.alo</Event_Model_Name>
+			<Event_Model_Scale>0.003</Event_Model_Scale>
+			<Event_Duration>10.0</Event_Duration>
+			<Event_Single_Instance>No</Event_Single_Instance>
+		</Radar_Map_Event>
+	
+		<Radar_Map_Event name="Interdict_Activated">
+			<Event_Model_Name>I_minimap_beacon.alo</Event_Model_Name>
+			<Event_Model_Scale>0.002</Event_Model_Scale>
+			<Event_Single_Instance>No</Event_Single_Instance>
+			<Event_Persistent>Yes</Event_Persistent>
+		</Radar_Map_Event>
+				
+		
+		<Radar_Map_Event name="Galactic_Build_Complete_Planet_Ping">
+			<Event_Model_Name>I_minimap_death_target.alo</Event_Model_Name>
+			<Event_Model_Scale>0.002 </Event_Model_Scale>
+			<Event_Duration>5.0</Event_Duration>
+			<Event_Single_Instance>No</Event_Single_Instance>
+		</Radar_Map_Event>
+		
+	</RadarMapEvents>
+
+
+	<RadarMapSettings>
+		
+		<Use_Event_System>Yes</Use_Event_System>
+		
+		<!-- Space Settings -->
+		<!-- Space_Position_RightBottom>0.95f,-0.95f</Space_Position_RightBottom>
+		<Space_Position_LeftTop>0.5f,-0.5f</Space_Position_LeftTop -->
+		
+		<Space_Backdrop_Texture_Name>i_radar_map_grid.tga</Space_Backdrop_Texture_Name>
+		<Space_FOW_Color>25, 66, 120, 100 </Space_FOW_Color>
+		<Space_Is_Guide_Rectangle>No</Space_Is_Guide_Rectangle>
+		<Space_Asteroid_Field_Color>103, 130, 139, 127</Space_Asteroid_Field_Color>
+		<Space_Asteroid_Field_Border_Color>174,171, 200, 127</Space_Asteroid_Field_Border_Color>
+		
+				
+		<!-- Land Settings -->
+		<!--Land_Position_RightBottom>0.95f,0.5f</Land_Position_RightBottom>
+		<Land_Position_LeftTop>0.5f, 0.95f</Land_Position_LeftTop-->
+		<Land_Backdrop_Texture_Name>i_radar_map_grid.tga</Land_Backdrop_Texture_Name >
+		<Land_FOW_Color>10, 10, 10, 100</Land_FOW_Color>
+		<Land_Is_Guide_Rectangle>No</Land_Is_Guide_Rectangle>
+		
+		
+		<!-- Passability colors -->
+		
+		<!-- DEFAULT color shouls PRECEED all other color settings! -->
+		<!-- All colors for terrain types not specified in this xml 
+			will be set to default color -->
+			 
+		<Passability_Color_Settings name="Default">
+			<Color name="passability_steep">25,87,113,255</Color>
+			<Color name="passability_water">22,67,106,255</Color>
+			<Color name="passability_wall">9,64,57,255</Color>
+			<Color name="passability_obstacle">9,64,57,255</Color>
+			<Color name="passability_clear">17,85,60,255</Color>
+		</Passability_Color_Settings>
+		
+		<Passability_Color_Settings name="Temperate">
+			<Color name="passability_steep">25,87,113,255</Color>
+			<Color name="passability_water">22,67,109,255</Color>
+			<Color name="passability_wall">9,64,57,255</Color>
+			<Color name="passability_obstacle">9,64,57,255</Color>
+			<Color name="passability_clear">17,85,60,255</Color>
+		</Passability_Color_Settings>
+
+		<Passability_Color_Settings name="Arctic">
+			<Color name="passability_steep">196,196,223,255</Color>
+			<Color name="passability_water">162,162,185,255</Color>
+			<Color name="passability_wall">180,180,202,255</Color>
+			<Color name="passability_obstacle">180,180,202,255</Color>
+			<Color name="passability_clear">255,255,255,255</Color>
+		</Passability_Color_Settings>
+
+		<Passability_Color_Settings name="Desert">
+			<Color name="passability_steep">153,120,83,255</Color>
+			<Color name="passability_water">22,67,109,255</Color>
+			<Color name="passability_wall">111,87,61,255</Color>
+			<Color name="passability_obstacle">230,180,120,255</Color>
+			<Color name="passability_clear">220,170,110,255</Color>
+		</Passability_Color_Settings>
+
+		<Passability_Color_Settings name="Forest">
+			<Color name="passability_steep">9,64,57,255</Color>
+			<Color name="passability_water">22,67,109,255</Color>
+			<Color name="passability_wall">9,64,57,255</Color>
+			<Color name="passability_obstacle">9,64,57,255</Color>
+			<Color name="passability_clear">14,85,73,255</Color>
+		</Passability_Color_Settings>
+
+		<Passability_Color_Settings name="Swamp">
+			<Color name="passability_steep">76,66,49,255</Color>
+			<Color name="passability_water">105,88,52,255</Color>
+			<Color name="passability_wall">76,89,55,255</Color>
+			<Color name="passability_obstacle">76,89,55,255</Color>
+			<Color name="passability_clear">137,120,88,255</Color>
+		</Passability_Color_Settings>
+
+		<Passability_Color_Settings name="Volcanic">
+			<Color name="passability_steep">195,109,65,255</Color>
+			<Color name="passability_water">133,9,0,255</Color>
+			<Color name="passability_wall">154,74,33,255</Color>
+			<Color name="passability_obstacle">154,74,33,255</Color>
+			<Color name="passability_clear">251,144,88,255</Color>
+		</Passability_Color_Settings>
+
+		<Passability_Color_Settings name="Urban">
+			<Color name="passability_steep">150,150,150,255</Color>
+			<Color name="passability_water">72,112,150,255</Color>
+			<Color name="passability_wall">128,128,128,255</Color>
+			<Color name="passability_obstacle">128,128,128,255</Color>
+			<Color name="passability_clear">200,200,200,255</Color>
+		</Passability_Color_Settings>
+		
+		
+		
+		<!-- Settings to become obsolete -->
+		<Color name="default">12,30,51,255</Color>
+		<Color name="space">12, 30, 51, 255</Color>
+		<Color name="dirt">0, 0, 0, 0</Color>
+		<Color name="grass">0, 0, 0, 0</Color>
+		<Color name="snow">0, 0, 0, 0</Color>
+	</RadarMapSettings>
+	
+	
+</RadarMap>

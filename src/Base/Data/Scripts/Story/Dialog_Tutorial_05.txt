@@ -1,0 +1,163 @@
+[CHAPTER 0]
+
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+
+TEXT TEXT_STORY_TUTORIAL_EMPIRE_ACT04_40
+# Deploy land units to surface of Ryloth.
+
+NEWLINE 1
+
+TEXT TEXT_SPEECH_TUTORIAL_EMPIRE_ACT04_41
+# Hint: To initiate a Land Tactical battle, drag the fleet into the land slot on Ryloth. 
+# Remember - while you have bomber units in orbit above the planet you will also have access to 
+# Bombing Runs.
+
+# DIALOG TUTORIAL_EMPIRE_ACT04_41
+
+
+[CHAPTER 1]
+
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+
+TEXT TEXT_STORY_TUTORIAL_EMPIRE_ACT05_02
+# Capture the Reinforcement Point.
+
+NEWLINE 1
+
+TEXT TEXT_SPEECH_TUTORIAL_EMPIRE_ACT05_03
+# Hint: The area surrounding a Reinforcement Point must be clear of enemies before it may be 
+# captured.  Remember - you can use Build Pads to purchase defensive structures in strategic
+# areas, such as this Reinforcement Point.
+
+# DIALOG TUTORIAL_EMPIRE_ACT05_03
+
+
+[CHAPTER 2]
+
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+
+TEXT TEXT_STORY_TUTORIAL_EMPIRE_ACT05_04
+# Deploy All Reinforcements.
+
+NEWLINE 1
+
+TEXT TEXT_SPEECH_TUTORIAL_EMPIRE_ACT05_10
+# Hint: When invading the surface of a planet, it is vital you maintain control of as many
+# Reinforcement Points as possible since you can only deploy reinforcements near areas that
+# you control. If the defender gains control of a Reinforcement Point, you will not be able
+# to deploy reinforcements at that location.
+
+# DIALOG TUTORIAL_EMPIRE_ACT05_10
+
+
+[CHAPTER 3]
+
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+
+TEXT TEXT_STORY_TUTORIAL_EMPIRE_ACT05_09
+# Destroy the Jawa Sandcrawler.
+
+NEWLINE 1
+
+TEXT TEXT_SPEECH_TUTORIAL_EMPIRE_ACT05_28
+# Hint: Beware of indigenous units, such as Jawas. These forces will continue to attack until
+# their habitat has been destroyed. Use your forces to destroy the Jawa Sandcrawler.
+
+# DIALOG TUTORIAL_EMPIRE_ACT05_28
+
+
+[CHAPTER 4]
+
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+
+TEXT TEXT_STORY_TUTORIAL_EMPIRE_ACT05_13
+# Destroy the Power Generator.
+
+NEWLINE 1
+
+TEXT TEXT_SPEECH_TUTORIAL_EMPIRE_ACT05_14
+# Hint: Base Shield Generators provide the defender with a significant advantage by blocking
+# enemy blaster fire and reducing the movement speed of enemy units. Base Shield Generators
+# require Power Generators in order to function. This means that if you destroy the Power
+# Generator, the Base Shield will be disabled.
+
+# DIALOG TUTORIAL_EMPIRE_ACT05_14
+
+
+[CHAPTER 5]
+
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+
+TEXT TEXT_STORY_TUTORIAL_EMPIRE_ACT05_17
+# Eliminate the Rebel base.
+
+NEWLINE 1
+
+TEXT TEXT_SPEECH_TUTORIAL_EMPIRE_ACT05_18
+# Hint: Use your forces and special abilities, such as bombing runs, to destroy enemy turrets,
+# buildings, and other base defenses.
+
+# DIALOG TUTORIAL_EMPIRE_ACT05_18
+
+
+
+[CHAPTER 6]
+
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+
+TEXT TEXT_STORY_TUTORIAL_EMPIRE_ACT04_38
+# Combine all fleets located on Nal Hutta.
+
+NEWLINE 1
+
+TEXT TEXT_SPEECH_TUTORIAL_REBEL_ACT02_68
+# Hint: Combining two fleets will create a single fleet that is larger and more powerful.  
+# To combine your fleets, simply drag and drop one fleet icon onto another.
+
+
+
+
+[CHAPTER 7]
+
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+
+TEXT TEXT_STORY_TUTORIAL_EMPIRE_ACT05_11A
+# Advance on the Rebel base.
+
+NEWLINE 1
+
+TEXT TEXT_SPEECH_TUTORIAL_REBEL_ACT01_21
+# Hint: To move your selected troops to the Rebel base, 
+# you can give them movement orders by right-clicking directly on the battlefield map or on the mini-map.

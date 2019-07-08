@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+
+<Campaign_Files>
+	
+	<File>Campaigns_Multiplayer.xml</File>
+	<File>Campaigns_Singleplayer.xml</File>
+	<File>Campaigns_Tutorial.xml</File>
+	<File>Campaigns_Alpha.xml</File>
+
+<!--
+	
+
+	<File>Campaigns_Main.xml</File>
+	<File>Campaigns_Standard.xml</File>
+	<File>Campaigns_Demos_02.xml</File>
+	<File>Campaigns_E3_Demo.xml</File>
+	<File>Campaigns_P1.xml</File>
+	<File>Campaigns_P2.xml</File>
+	<File>Campaigns_P3.xml</File>
+	<File>Campaigns_P4.xml</File>
+	<File>Campaigns_P5.xml</File>
+	<File>Campaigns_P6.xml</File>
+	<File>Campaigns_P7.xml</File>
+	<File>Campaigns_Test.xml</File>
+	<File>Campaigns_Demos.xml</File>
+	<File>Campaigns_Style_Guide.xml</File>  Contains Comicon Demo
+		
+-->
+
+</Campaign_Files>

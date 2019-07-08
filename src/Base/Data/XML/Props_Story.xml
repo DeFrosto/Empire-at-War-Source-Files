@@ -1,0 +1,431 @@
+<?xml version="1.0"?>
+<Props_Story>
+
+
+	<Props_Story Name="Mission_Goal_AA_Turret_00">
+		<Text_ID>TEXT_STRUCTURE_TURRET_AA</Text_ID>
+		<Land_Model_Name>EB_AATURRET.ALO</Land_Model_Name>
+		<Behavior>SELECTABLE</Behavior>
+		<LandBehavior> LAND_OBSTACLE, REVEAL, HIDE_WHEN_FOGGED </LandBehavior>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Obstacle_Width>20.0</Obstacle_Width>
+		<Obstacle_Height>20.0</Obstacle_Height>
+		<Obstacle_X_Offset>-10.0</Obstacle_X_Offset>
+		<Obstacle_Y_Offset>-10.0</Obstacle_Y_Offset>
+		<Mass>1.0</Mass>
+		<Scale_Factor>0.75</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Tactical_Health>150</Tactical_Health>
+		<Affiliation>Empire</Affiliation>
+		<Base_Level_Available>4</Base_Level_Available>
+		<Armor_Type> Armor_Turret </Armor_Type>
+		<Ranged_Target_Z_Adjust>8.0</Ranged_Target_Z_Adjust>
+
+		<Death_Explosions>Small_Explosion_Land</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<Victory_Relevant>no</Victory_Relevant>
+		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>40.0, 40.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Square_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<CategoryMask> Structure </CategoryMask>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Scale_Land>3.0</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Space>3.0</Radar_Icon_Scale_Space>
+	</Props_Story>
+
+	<Props_Story Name="Mission_Goal_AA_Turret_01">
+		<Variant_Of_Existing_Type>Mission_Goal_AA_Turret_00</Variant_Of_Existing_Type>	
+	</Props_Story>
+
+	<Props_Story Name="Mission_Goal_AA_Turret_02">
+		<Variant_Of_Existing_Type>Mission_Goal_AA_Turret_00</Variant_Of_Existing_Type>	
+	</Props_Story>
+
+	<Props_Story Name="Mission_Goal_AA_Turret_03">
+		<Variant_Of_Existing_Type>Mission_Goal_AA_Turret_00</Variant_Of_Existing_Type>	
+	</Props_Story>
+
+	<Props_Story Name="Mission_Goal_AA_Turret_04">
+		<Variant_Of_Existing_Type>Mission_Goal_AA_Turret_00</Variant_Of_Existing_Type>	
+	</Props_Story>
+
+	<Props_Story Name="Mission_Goal_AA_Turret_05">
+		<Variant_Of_Existing_Type>Mission_Goal_AA_Turret_00</Variant_Of_Existing_Type>	
+	</Props_Story>
+	
+	<Props_Story Name="Mission_Goal_AA_Turret_06">
+		<Variant_Of_Existing_Type>Mission_Goal_AA_Turret_00</Variant_Of_Existing_Type>	
+	</Props_Story>
+
+    <!-- AI  Empire Shipyard Props (Rebel Mission 1) -->
+
+	<SpaceStructure Name="Drydock_Tie_Bomber">
+		<No_Colorization_Color>75, 75, 75, 255</No_Colorization_Color>
+		<Text_ID>TEXT_UNIT_TIE_BOMBER</Text_ID>
+		<Space_Model_Name>EV_TIEBOMBER.ALO</Space_Model_Name>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_STORY_BROKEN_SHIP  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
+		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+		<Behavior>SELECTABLE,UNIT_AI, IDLE, SPACE_OBSTACLE, HIDE_WHEN_FOGGED,REVEAL</Behavior>
+		<Space_FOW_Reveal_Range>0</Space_FOW_Reveal_Range>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>50</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Empire</Affiliation>
+		<Base_Level_Available>0</Base_Level_Available>
+		<Armor_Type> Armor_Bomber </Armor_Type>
+		<Reveal_During_Setup_Phase> false </Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>     
+        <Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Small_Explosion_Land</Death_Explosions>
+		<CategoryMask>Structure</CategoryMask>
+		<Radar_Icon_Size>0.05  0.05</Radar_Icon_Size>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+		<Icon_Name>i_button_tie_bomber.tga</Icon_Name>
+
+	</SpaceStructure>
+
+    <SpaceStructure Name="Drydock_Tie_Fighter">
+		<No_Colorization_Color>75, 75, 75, 255</No_Colorization_Color>
+		<Text_ID>TEXT_UNIT_TIE_FIGHTER</Text_ID>
+		<Space_Model_Name>ev_TieFighter.ALO</Space_Model_Name>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_STORY_BROKEN_SHIP  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
+		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+		<Behavior>SELECTABLE, UNIT_AI, IDLE, SPACE_OBSTACLE, HIDE_WHEN_FOGGED,REVEAL</Behavior>
+		<Space_FOW_Reveal_Range>0</Space_FOW_Reveal_Range>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>50</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Empire</Affiliation>
+		<Base_Level_Available>0</Base_Level_Available>
+		<Armor_Type> Armor_Fighter </Armor_Type>
+		<Reveal_During_Setup_Phase> false </Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>     
+        <Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Small_Explosion_Land</Death_Explosions>
+		<CategoryMask>Structure</CategoryMask>
+		<Radar_Icon_Size>0.05  0.05</Radar_Icon_Size>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+		<Icon_Name>i_button_tie_fighter.tga</Icon_Name>
+
+	</SpaceStructure>
+
+	<SpaceStructure Name="Drydock_Star_Destroyer_Construction">
+		<GUI_Bounds_Scale>0.1</GUI_Bounds_Scale>
+		<Text_ID>TEXT_UNIT_STAR_DESTROYER</Text_ID>
+		<Space_Model_Name>W_Star_Destroyer_Construction.ALO</Space_Model_Name>
+		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_STORY_UNDER_CONSTRUCTION  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPITAL </Encyclopedia_Unit_Class>
+		<Behavior>SELECTABLE, UNIT_AI, HIDE_WHEN_FOGGED,REVEAL</Behavior>
+		<SpaceBehavior>IDLE, SPACE_OBSTACLE</SpaceBehavior>
+		<Space_FOW_Reveal_Range>0</Space_FOW_Reveal_Range>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>1000</Tactical_Health><!-- jdg was 1800 -->
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Empire</Affiliation>
+		<Base_Level_Available>0</Base_Level_Available>
+		<Armor_Type> Armor_Fighter </Armor_Type>
+		<Reveal_During_Setup_Phase> false </Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>     
+        <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Friggin_Huge_Explosion_Space_Empire</Death_Explosions>
+		<CategoryMask>Structure</CategoryMask>
+		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+
+		<Death_Clone>Damage_Normal, Drydock_Star_Destroyer_Construction_Death_Clone</Death_Clone>
+		
+		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
+		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
+		<Icon_Name>i_button_imperator.tga</Icon_Name>
+        
+	</SpaceStructure>
+
+			<SpaceStructure Name="Drydock_Star_Destroyer_Construction_Death_Clone">
+				<Text_ID>TEXT_UNIT_STAR_DESTROYER</Text_ID>
+				<Space_Model_Name>W_Star_Destroyer_Construction_D.alo</Space_Model_Name>
+				<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+				<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
+				<CategoryMask> Capital </CategoryMask>
+			</SpaceStructure>
+
+
+
+    <SpaceStructure Name="Drydock_Tyderium_Shuttle">
+		<Text_ID>TEXT_UNIT_TYDERIUM_SHUTTLE</Text_ID>
+		<Space_Model_Name>EV_LAMBDASHUTTLE_SPACE.ALO</Space_Model_Name>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_STORY_BROKEN_SHIP  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TRANSPORT </Encyclopedia_Unit_Class>
+		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+		<Behavior>SELECTABLE, UNIT_AI, IDLE, SPACE_OBSTACLE, REVEAL, HIDE_WHEN_FOGGED</Behavior>
+		<Death_Clone>Damage_Normal, Shuttle_Tyderium_Death_Clone</Death_Clone>
+		<Space_FOW_Reveal_Range>0</Space_FOW_Reveal_Range>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>200</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Empire</Affiliation>
+		<Base_Level_Available>0</Base_Level_Available>
+		<Armor_Type> Armor_Corellian_Corvette </Armor_Type>
+		<Reveal_During_Setup_Phase> false </Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Medium_Explosion_Space_Empire</Death_Explosions>
+		<CategoryMask>Structure</CategoryMask>
+		<Radar_Icon_Size>0.05  0.05</Radar_Icon_Size>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+		<Icon_Name>i_button_Lamba_Shuttle.tga</Icon_Name>
+
+	</SpaceStructure>
+
+    <SpaceStructure Name="Orbital_Construction_Pod">
+		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
+		<Select_Box_Scale>600</Select_Box_Scale>
+		<Text_ID>TEXT_STRUCTURE_ORBITAL_CONSTRUCTION_POD</Text_ID>
+		<Space_Model_Name>EB_construction_pod.alo</Space_Model_Name>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE </Encyclopedia_Unit_Class>
+		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+		<Behavior>SELECTABLE, UNIT_AI</Behavior> <!-- pod should be seen thru FoW -->
+		<SpaceBehavior>IDLE, SPACE_OBSTACLE</SpaceBehavior>
+		<Space_FOW_Reveal_Range>100.0</Space_FOW_Reveal_Range>
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>700</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Empire</Affiliation>
+		<Base_Level_Available>0</Base_Level_Available>
+		<Armor_Type> Armor_Satellite </Armor_Type>
+		<Reveal_During_Setup_Phase> false </Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>     
+        <Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<SFXEvent_Select>Structure_Light_Factory_Select_SFX</SFXEvent_Select>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Ranged_Target_Z_Adjust>30.0</Ranged_Target_Z_Adjust>
+		<Death_Explosions>Proj_Construction_Pod_Detonation</Death_Explosions>
+		<CategoryMask>Structure</CategoryMask>
+		<Radar_Icon_Size>0.05  0.05</Radar_Icon_Size>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
+
+	</SpaceStructure>
+
+
+    <SpaceStructure Name="Orbital_Resource_Container">
+		<GUI_Bounds_Scale>.25</GUI_Bounds_Scale>
+		<Select_Box_Scale>200</Select_Box_Scale>
+		<Text_ID>TEXT_STRUCTURE_ORBITAL_RESOURCE_CONTAINER</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE </Encyclopedia_Unit_Class>
+		<Space_Model_Name>W_orbital_resource_container.alo</Space_Model_Name>
+		<Property_Flags>NotOpportunityTarget</Property_Flags>
+		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+		<Behavior>SELECTABLE, UNIT_AI, IDLE, SPACE_OBSTACLE, REVEAL, HIDE_WHEN_FOGGED</Behavior>
+		<Space_FOW_Reveal_Range>100.0</Space_FOW_Reveal_Range>
+		<GUI_Bracket_Size>1</GUI_Bracket_Size>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>20</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Empire</Affiliation>
+		<Base_Level_Available>0</Base_Level_Available>
+		<Armor_Type> Armor_Satellite </Armor_Type>
+		<Reveal_During_Setup_Phase> false </Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>     
+        <Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Ranged_Target_Z_Adjust>30.0</Ranged_Target_Z_Adjust>
+		<Death_Explosions>Huge_Explosion_Space_Empire</Death_Explosions>
+		<Death_Projectiles>Proj_Construction_Pod_Detonation</Death_Projectiles>
+		
+		<CategoryMask>Structure</CategoryMask>
+		<Radar_Icon_Size>0.05  0.05</Radar_Icon_Size>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+	</SpaceStructure>
+	
+	<SpaceStructure Name="Orbital_Resource_Container_Small">
+		<Variant_Of_Existing_Type>Orbital_Resource_Container</Variant_Of_Existing_Type>
+		<Space_Model_Name>W_orbital_resource_container_small.alo</Space_Model_Name>
+	</SpaceStructure>
+	
+	<!-- jdg using this in RM01 ending cine -->
+	<SpaceStructure Name="Orbital_Resource_Container_Hide">
+		<Variant_Of_Existing_Type>Orbital_Resource_Container</Variant_Of_Existing_Type>
+		<Space_Model_Name>W_orbital_resource_container.alo</Space_Model_Name>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar> 
+		<Tactical_Health>5</Tactical_Health>
+		<Behavior>SELECTABLE, UNIT_AI, IDLE </Behavior>
+	</SpaceStructure>
+
+
+	<SpaceStructure Name="Empire_Dock_Destroyable">
+		<GUI_Bounds_Scale>0.1</GUI_Bounds_Scale>
+		<Text_ID>TEXT_STRUCTURE_ORBITAL_DRYDOCK</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_STRUCTURE_ORBITAL_DRYDOCK_DESC</Encyclopedia_Text>
+		<Space_Model_Name>eb_dock00.alo</Space_Model_Name>
+		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+		<Behavior>SELECTABLE</Behavior>
+		<SpaceBehavior>IDLE, SPACE_OBSTACLE</SpaceBehavior>
+		<Space_FOW_Reveal_Range>100.0</Space_FOW_Reveal_Range>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>5000</Tactical_Health><!-- jdg was 1800 -->
+		<Ranged_Target_Z_Adjust>30.0</Ranged_Target_Z_Adjust>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Empire</Affiliation>
+		<Base_Level_Available>0</Base_Level_Available>
+		<Armor_Type> Armor_Fighter </Armor_Type>
+		<Reveal_During_Setup_Phase> false </Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>     
+        <Death_SFXEvent_Start_Die>Unit_Space_Station_Death_SFX</Death_SFXEvent_Start_Die>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Friggin_Huge_Explosion_Space_Empire</Death_Explosions>
+		<Death_Projectiles>Proj_Construction_Pod_Detonation</Death_Projectiles><!-- jdg test -->
+		<CategoryMask>Structure</CategoryMask>
+		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+
+		<Space_Obstacle_Radius> 130 </Space_Obstacle_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+
+		<Death_Clone>Damage_Normal, Empire_Dock_Destroyable_Death_Clone</Death_Clone>
+        
+	</SpaceStructure>
+
+			<SpaceStructure Name="Empire_Dock_Destroyable_Death_Clone">
+				<Text_ID>TEXT_STRUCTURE_ORBITAL_DRYDOCK</Text_ID>
+				<Space_Model_Name>EB_dock_break.alo</Space_Model_Name>
+				<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+				<CategoryMask> Structure </CategoryMask>
+			</SpaceStructure>
+
+
+
+	<SpaceStructure Name="Cargo_Debris_01">
+		<Text_ID>TEXT_OBJECT_CARGO</Text_ID>
+		<Space_Model_Name>W_crates11.alo</Space_Model_Name>
+		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+		<Behavior />
+		<LandBehavior>IDLE,SPACE_OBSTACLE</LandBehavior>
+		<Space_FOW_Reveal_Range>100.0</Space_FOW_Reveal_Range>
+		<Mass>1.0</Mass>
+		<Scale_Factor>5.0</Scale_Factor>
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>10</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Pirates</Affiliation>
+		<Base_Level_Available>0</Base_Level_Available>
+		<Armor_Type> Armor_Satellite </Armor_Type>
+		<Reveal_During_Setup_Phase> false </Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>     
+		<Collidable_By_Projectile_Living>No</Collidable_By_Projectile_Living>
+		<CategoryMask>Structure</CategoryMask>
+		<Radar_Icon_Size>0.05  0.05</Radar_Icon_Size>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+	</SpaceStructure>
+
+	<SpaceStructure Name="Cargo_Debris_02">
+		<Variant_Of_Existing_Type>Cargo_Debris_01</Variant_Of_Existing_Type>
+	</SpaceStructure>
+
+	<SpaceStructure Name="Cargo_Debris_03">
+		<Variant_Of_Existing_Type>Cargo_Debris_01</Variant_Of_Existing_Type>
+	</SpaceStructure>
+
+	<SpaceStructure Name="Cargo_Debris_04">
+		<Variant_Of_Existing_Type>Cargo_Debris_01</Variant_Of_Existing_Type>
+	</SpaceStructure>
+		
+
+	<!-- Used for Rebel Act I Mission 9 -->
+
+	<GroundBuildable Name="Bacta_Tank_00">
+		<Variant_Of_Existing_Type>Empire_Buildable_Bacta_Tank</Variant_Of_Existing_Type>
+	</GroundBuildable>
+
+	<GroundBuildable Name="Bacta_Tank_01">
+		<Variant_Of_Existing_Type>Empire_Buildable_Bacta_Tank</Variant_Of_Existing_Type>
+	</GroundBuildable>
+
+
+
+	<Props_Story Name="Prop_Deactivated_ATAT">
+		<Text_ID>TEXT_PROP_AT_AT_UNFINISHED</Text_ID>
+		<Land_Model_Name>w_at-at_construction.ALO</Land_Model_Name>
+		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+		<Scale_Factor>1.75</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+	</Props_Story>
+
+
+
+
+
+</Props_Story>

@@ -1,0 +1,55 @@
+[CHAPTER 0]
+
+# Initial dialog box display
+TITLE TEXT_STORY_TRANSMISSION_01
+TEXTCOLOR 255 255 255 255
+TEXT TEXT_TUTORIAL_CHAP_07_01
+IMAGE Dodonna.tga
+
+# Main Text, beginning of Mission
+WAIT 500
+SFX Button_Press
+NEWLINE 1
+TEXTCOLOR 255 255 255 176
+TEXT TEXT_TUTORIAL_CHAP_07_02
+
+# Wait 1 second and then show First Task
+WAIT 1000
+PAUSE 1
+SFX Button_Press
+NEWLINE 2
+TEXTCOLOR 255 255 255 176
+TEXT TEXT_TUTORIAL_CHAP_07_03
+
+# Wait 10 seconds and then unpause the game
+WAIT 10000
+PAUSE 0
+
+
+[CHAPTER 1]
+
+# Initial dialog box display
+TITLE TEXT_STORY_TRANSMISSION_01
+TEXTCOLOR 255 255 255 255
+TEXT TEXT_TUTORIAL_CHAP_07_01
+IMAGE Dodonna.tga
+
+# Main Text, confirm success of task 1
+WAIT 500
+SFX Button_Press
+NEWLINE 1
+TEXTCOLOR 255 255 255 176
+TEXT TEXT_TUTORIAL_CHAP_07_04
+
+# Wait 1 second and then show second task
+WAIT 1000
+PAUSE 1
+SFX Button_Press
+NEWLINE 2
+TEXTCOLOR255 255 255 176
+TEXT TEXT_TUTORIAL_CHAP_07_05
+
+# Wait 10 seconds and then unpause the game
+WAIT 10000
+PAUSE 0
+

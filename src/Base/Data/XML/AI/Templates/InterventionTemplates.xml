@@ -1,0 +1,178 @@
+<?xml version="1.0" ?>
+
+<AITemplates>
+
+<All_Interventions_Template>
+
+	<Priority>1</Priority>
+	<Trigger>One</Trigger>
+
+	<Budget>
+		<Interventions>ReallyBig</Interventions>
+	</Budget>
+	
+	<Tactical_Budget_Allowance>
+		<Interventions>1.0</Interventions>
+	</Tactical_Budget_Allowance>
+
+	<Turn_On>
+		<Goals>
+			<Goal_Type>Intervention_Upgrade_Space_Station</Goal_Type>
+			<Goal_Type>Intervention_Build_Ion_Cannons</Goal_Type>
+			<Goal_Type>Intervention_Build_Light_Vehicle_Factories</Goal_Type>
+			<Goal_Type>Intervention_Build_Heavy_Vehicle_Factories</Goal_Type>
+			<Goal_Type>Intervention_Accumulate_Credits</Goal_Type>
+			<Goal_Type>Intervention_Build_Space_Units</Goal_Type>
+			<Goal_Type>Intervention_Build_Land_Units</Goal_Type>
+			<Goal_Type>Intervention_Conquer_Pirate_Planet</Goal_Type>
+			<Goal_Type>Intervention_Scout</Goal_Type>
+			<Goal_Type>Intervention_Conquer_Enemy_Planet</Goal_Type>
+			<Goal_Type>Intervention_Credit_Windfall</Goal_Type>
+			<Goal_Type>Intervention_Land_Unit_Windfall</Goal_Type>
+			<Goal_Type>Intervention_Space_Unit_Windfall</Goal_Type>
+			<Goal_Type>Intervention_Tech_Windfall</Goal_Type>
+			<Goal_Type>Intervention_Indigenous_Revolt</Goal_Type>
+			<Goal_Type>Intervention_Planet_Windfall</Goal_Type>
+			<Goal_Type>Intervention_Hunt_Capital_Ships</Goal_Type>
+			<Goal_Type>Intervention_Rebel_Smuggler</Goal_Type>
+			<Goal_Type>Intervention_Pirate_Ambush</Goal_Type>
+			<Goal_Type>Intervention_Vader_Favor</Goal_Type>
+			<Goal_Type>Intervention_Imperial_Traitor</Goal_Type>
+			<Goal_Type>Intervention_Rebel_Sabotage</Goal_Type>
+			<Goal_Type>Intervention_Rebel_Revolt</Goal_Type>
+			<Goal_Type>Intervention_Pirate_Defection</Goal_Type>
+			<Goal_Type>Intervention_Refugee_Escort</Goal_Type>
+			<Goal_Type>Intervention_Confront_Boba</Goal_Type>
+			<Goal_Type>Intervention_Pirate_Rescue</Goal_Type>
+			<Goal_Type>Intervention_Pirate_Enlightenment</Goal_Type>
+			<Goal_Type>Intervention_Pirate_Enlightenment_b</Goal_Type>
+			<!--<Goal_Type>Intervention_Show_of_Strength</Goal_Type>-->
+			<Goal_Type>Intervention_Fleet_Rescue</Goal_Type>
+			<Goal_Type>Intervention_Empire_Oppression</Goal_Type>
+		</Goals>
+		
+		<Plans>
+			<Name>Intervention_Upgrade_Space_Station</Name>
+			<Name>Intervention_Build_Ion_Cannons</Name>
+			<Name>Intervention_Build_Light_Vehicle_Factories</Name>
+			<Name>Intervention_Build_Heavy_Vehicle_Factories</Name>
+			<Name>Intervention_Accumulate_Credits</Name>
+			<Name>Intervention_Build_Space_Units</Name>
+			<Name>Intervention_Build_Land_Units</Name>
+			<Name>Intervention_Conquer_Pirate_Planet</Name>
+			<Name>Intervention_Scout</Name>
+			<Name>Intervention_Credit_Windfall</Name>
+			<Name>Intervention_Land_Unit_Windfall</Name>
+			<Name>Intervention_Space_Unit_Windfall</Name>
+			<Name>Intervention_Tech_Windfall</Name>
+			<Name>Intervention_Indigenous_Revolt</Name>
+			<Name>Intervention_Planet_Windfall</Name>
+			<Name>Intervention_Hunt_Capital_Ships</Name>
+			<Name>Intervention_Rebel_Smuggler</Name>
+			<Name>Intervention_Pirate_Ambush</Name>
+			<Name>Intervention_Vader_Favor</Name>
+			<Name>Intervention_Imperial_Traitor</Name>
+			<Name>Intervention_Rebel_Sabotage</Name>
+			<Name>Intervention_Rebel_Revolt</Name>
+			<Name>Intervention_Pirate_Defection</Name>
+			<Name>Intervention_Refugee_Escort</Name>
+			<Name>Intervention_Confront_Boba</Name>
+			<Name>Intervention_Pirate_Rescue</Name>
+			<Name>Intervention_Pirate_Enlightenment</Name>
+			<Name>Intervention_Pirate_Enlightenment_b</Name>
+			<Name>Intervention_Show_of_Strength</Name>
+			<Name>Intervention_Fleet_Rescue</Name>
+			<Name>Intervention_Empire_Oppression</Name>
+		</Plans>
+	</Turn_On>
+
+</All_Interventions_Template>
+
+<Disable_Interventions_Template>
+	<Priority>2</Priority>
+	<Trigger>Are_Interventions_Disabled</Trigger>
+	
+	<Turn_Off>
+		<Goals>
+			<Category>Interventions</Category>
+		</Goals>
+	</Turn_Off>
+
+</Disable_Interventions_Template>
+
+<Rebel_Main_Campaign_Act_1_Interventions>
+	<Priority>2</Priority>
+	<Trigger>Is_Act_One</Trigger>
+	
+	<Budget>
+		<Interventions>ReallyBig</Interventions>
+	</Budget>
+	
+	<Tactical_Budget_Allowance>
+		<Interventions>1.0</Interventions>
+	</Tactical_Budget_Allowance>
+
+	<Turn_On>
+		<Goals>
+			<Goal_Type>Intervention_Upgrade_Space_Station</Goal_Type>
+			<Goal_Type>Intervention_Build_Ion_Cannons</Goal_Type>
+			<Goal_Type>Intervention_Build_Light_Vehicle_Factories</Goal_Type>
+			<Goal_Type>Intervention_Build_Heavy_Vehicle_Factories</Goal_Type>
+			<Goal_Type>Intervention_Build_Space_Units</Goal_Type>
+			<Goal_Type>Intervention_Build_Land_Units</Goal_Type>
+		</Goals>
+		
+		<Plans>
+			<Name>Intervention_Upgrade_Space_Station</Name>
+			<Name>Intervention_Build_Ion_Cannons</Name>
+			<Name>Intervention_Build_Light_Vehicle_Factories</Name>
+			<Name>Intervention_Build_Heavy_Vehicle_Factories</Name>
+			<Name>Intervention_Build_Space_Units</Name>
+			<Name>Intervention_Build_Land_Units</Name>
+		</Plans>
+	</Turn_On>
+</Rebel_Main_Campaign_Act_1_Interventions>
+
+<Rebel_Main_Campaign_Act_3_Interventions>
+	<Priority>3</Priority>
+	<Trigger>Is_Act_Three</Trigger>
+	
+	<Budget>
+		<Interventions>ReallyBig</Interventions>
+	</Budget>
+	
+	<Tactical_Budget_Allowance>
+		<Interventions>1.0</Interventions>
+	</Tactical_Budget_Allowance>
+
+	<Turn_On>
+		<Goals>
+			<Goal_Type>Intervention_Conquer_Pirate_Planet</Goal_Type>
+			<Goal_Type>Intervention_Conquer_Enemy_Planet</Goal_Type>
+			<Goal_Type>Intervention_Credit_Windfall</Goal_Type>
+			<Goal_Type>Intervention_Land_Unit_Windfall</Goal_Type>
+			<Goal_Type>Intervention_Space_Unit_Windfall</Goal_Type>
+		</Goals>
+		
+		<Plans>
+			<Name>Intervention_Conquer_Pirate_Planet</Name>
+			<Name>Intervention_Credit_Windfall</Name>
+			<Name>Intervention_Land_Unit_Windfall</Name>
+			<Name>Intervention_Space_Unit_Windfall</Name>
+		</Plans>
+	</Turn_On>
+	
+</Rebel_Main_Campaign_Act_3_Interventions>
+
+<Disable_Sandbox_Events_Template>
+	<Priority>2</Priority>
+	<Trigger>Are_Interventions_Disabled</Trigger>
+	
+	<Turn_Off>
+		<Goals>
+			<Category>Sandbox_Events</Category>
+		</Goals>
+	</Turn_Off>
+</Disable_Sandbox_Events_Template>
+
+</AITemplates>

@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<FunctionSet>
+
+	<Ewok_Hunt>
+		<Goal>Ewok_Hunt</Goal>
+		<Function>Need_To_Ewok_Hunt</Function>
+	</Ewok_Hunt>
+
+</FunctionSet>

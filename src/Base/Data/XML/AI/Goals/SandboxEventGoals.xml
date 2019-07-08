@@ -1,0 +1,94 @@
+<?xml version="1.0" ?>
+
+<Goals>
+	
+	<Sandbox_Event_Contrived_Attack>
+		<AIGoalApplicationFlags>Enemy</AIGoalApplicationFlags>
+		<GameMode>Galactic</GameMode>
+		<Category>Sandbox_Events</Category>
+		<Reachability>Any</Reachability>
+		<Time_Limit>-1</Time_Limit>
+		<Is_Like>
+			Conquer_Opponent,Raid,Conquer_To_Reconnect 
+		</Is_Like>
+		<Global_Exclusions>
+			Sandbox_Event_Planet_Ownership_Flip,
+			Sandbox_Event_Contrived_Attack,
+		</Global_Exclusions>	
+	</Sandbox_Event_Contrived_Attack>
+	
+	<Sandbox_Event_Trap_Galactic>
+		<AIGoalApplicationFlags>Friendly</AIGoalApplicationFlags>
+		<GameMode>Galactic</GameMode>
+		<Category>Sandbox_Events</Category>
+		<Reachability>Any</Reachability>
+		<Time_Limit>-1</Time_Limit>		
+		<Global_Exclusions>
+			Sandbox_Event_Trap_Galactic,
+			Sandbox_Event_Hero_Gathering
+		</Global_Exclusions>	
+		<Is_Like>
+			Generate_Magic_Space_Defense,
+			Generate_Magic_Ground_Defense,
+			Generate_Magic_Space_Defense_Easy,
+			Generate_Magic_Ground_Defense_Easy,
+			Generate_Magic_Space_Defense_Hard,
+			Generate_Magic_Ground_Defense_Hard,
+			Build_Turbolasers,
+			Build_Base_Shield
+		</Is_Like>	
+	</Sandbox_Event_Trap_Galactic>
+	
+	<Sandbox_Event_Trap_Land>
+		<AIGoalApplicationFlags>Global</AIGoalApplicationFlags>
+		<GameMode>Land</GameMode>
+		<Category>Sandbox_Events</Category>
+		<Reachability>Any_Threat</Reachability>
+		<Time_Limit>-1</Time_Limit>		
+		<Global_Exclusions>Sandbox_Event_Trap_Land</Global_Exclusions>
+	</Sandbox_Event_Trap_Land>
+	
+	<Sandbox_Event_Planet_Ownership_Flip>
+		<AIGoalApplicationFlags>Enemy</AIGoalApplicationFlags>
+		<GameMode>Galactic</GameMode>
+		<Category>Sandbox_Events</Category>
+		<Reachability>Any</Reachability>
+		<Time_Limit>-1</Time_Limit>
+		<Is_Like>
+			Conquer_Opponent,Raid,Conquer_To_Reconnect 
+		</Is_Like>
+		<Global_Exclusions>
+			Sandbox_Event_Planet_Ownership_Flip,
+			Sandbox_Event_Contrived_Attack,
+		</Global_Exclusions>	
+	</Sandbox_Event_Planet_Ownership_Flip>
+	
+	<Sandbox_Event_Fleet_Rampage>
+		<AIGoalApplicationFlags>Enemy</AIGoalApplicationFlags>
+		<GameMode>Galactic</GameMode>
+		<AIGoalApplicationFlags>Enemy</AIGoalApplicationFlags>
+		<GameMode>Galactic</GameMode>
+		<Category>Sandbox_Events</Category>
+		<Reachability>Any</Reachability>
+		<Time_Limit>-1</Time_Limit>
+		<Is_Like>
+			Conquer_Opponent,Raid,Conquer_To_Reconnect 
+		</Is_Like>
+		<Global_Exclusions>
+			Sandbox_Event_Fleet_Rampage
+		</Global_Exclusions>		
+	</Sandbox_Event_Fleet_Rampage>
+	
+	<Sandbox_Event_Hero_Gathering>
+		<AIGoalApplicationFlags>Friendly</AIGoalApplicationFlags>
+		<GameMode>Galactic</GameMode>
+		<Category>Sandbox_Events</Category>
+		<Reachability>Any</Reachability>
+		<Time_Limit>-1</Time_Limit>		
+		<Global_Exclusions>
+			Sandbox_Event_Trap_Galactic,
+			Sandbox_Event_Hero_Gathering
+		</Global_Exclusions>	
+	</Sandbox_Event_Hero_Gathering>
+	
+</Goals>

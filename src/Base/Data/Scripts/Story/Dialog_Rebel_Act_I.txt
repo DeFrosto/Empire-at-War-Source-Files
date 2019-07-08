@@ -1,0 +1,103 @@
+[CHAPTER 0]
+
+# Mission 1 dialog display
+TITLE TEXT_STORY_TRANSMISSION_17
+TEXTCOLOR 219 167 149 255
+TEXT TEXT_STORY_REBEL_ACT01_MISSION_ONE_00
+MOVIE Mon_Mothma_Loop
+
+# Main Text
+WAIT 500
+SFX Button_Press
+NEWLINE 1
+TEXTCOLOR 181 181 181 255
+TEXT TEXT_STORY_REBEL_ACT01_MISSION_ONE_01
+
+# Task Line
+WAIT 500
+SFX Button_Press
+NEWLINE 1
+TEXTCOLOR 109 247 255 255
+TEXT TEXT_STORY_REBEL_ACT01_MISSION_ONE_02
+
+
+# Wait 10 seconds and then unpause the game
+WAIT 100
+
+# Play the Symbol movie
+MOVIE_ONCE Rebel_Symbol
+
+
+
+
+
+
+                 
+
+[CHAPTER 1]
+
+# Mission 1 dialog display
+TITLE TEXT_STORY_TRANSMISSION_17
+TEXTCOLOR 219 167 149 255
+TEXT TEXT_STORY_REBEL_ACT01_MISSION_TWO_00
+MOVIE Mon_Mothma_Loop
+
+# Main Text
+WAIT 500
+SFX Button_Press
+NEWLINE 1
+TEXTCOLOR 181 181 181 255
+TEXT TEXT_STORY_REBEL_ACT01_MISSION_TWO_01
+
+# Task Line
+WAIT 500
+SFX Button_Press
+NEWLINE 1
+TEXTCOLOR 109 247 255 255
+TEXT TEXT_STORY_REBEL_ACT01_MISSION_TWO_02
+
+
+# Wait 10 seconds and then unpause the game
+WAIT 100
+
+# Play the Symbol movie
+MOVIE_ONCE Rebel_Symbol
+
+
+
+
+                 
+
+                 
+
+[CHAPTER 2]
+
+# Mission 1 dialog display
+TITLE TEXT_STORY_TRANSMISSION_17
+TEXTCOLOR 219 167 149 255
+TEXT TEXT_STORY_REBEL_ACT01_MISSION_THREE_00
+MOVIE Mon_Mothma_Loop
+
+# Main Text
+WAIT 500
+SFX Button_Press
+NEWLINE 1
+TEXTCOLOR 181 181 181 255
+TEXT TEXT_STORY_REBEL_ACT01_MISSION_THREE_01
+
+# Task Line
+WAIT 500
+SFX Button_Press
+NEWLINE 1
+TEXTCOLOR 109 247 255 255
+TEXT TEXT_STORY_REBEL_ACT01_MISSION_THREE_02
+
+
+# Wait 10 seconds and then unpause the game
+WAIT 100
+
+# Play the Symbol movie
+MOVIE_ONCE Rebel_Symbol
+
+
+                                   

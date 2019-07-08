@@ -1,0 +1,390 @@
+<?xml version="1.0" ?>
+
+<Equations>
+
+	<Minor_Intervention_Value>
+		(0 # 1) *
+		(3 > Game.ActiveStoryGoalCount)	*
+		Function_Are_Interventions_Allowed.Evaluate
+	</Minor_Intervention_Value>
+
+	<Major_Intervention_Value>
+		(1 # 10) *
+		Function_Are_Interventions_Allowed.Evaluate
+	</Major_Intervention_Value>
+
+	<Are_Interventions_Allowed>
+		(Game.Age > 99.0) *
+		(Game.TimeSinceStoryPopup > 120.0)	
+	</Are_Interventions_Allowed>
+
+	<Are_Interventions_Disabled>
+		Game.InterventionsEnabled == 0.0
+	</Are_Interventions_Disabled>
+
+	<Is_Act_One>
+		Variable_Self.StoryTrigger {Parameter_Name = "ACT_ONE_BEGIN_NOTIFICATION"}
+	</Is_Act_One>
+
+	<Is_Act_Three>
+		Variable_Self.StoryTrigger {Parameter_Name = "ACT_THREE_BEGIN_NOTIFICATION"}
+	</Is_Act_Three>
+
+<!--*********************************************************************************************************************-->
+
+	<Intervention_Trigger_Upgrade_Space_Station>	
+		(Variable_Self.HasUnit {Parameter_Type = "Mon_Mothma_Team", Parameter_Type = "Grand_Moff_Tarkin_Team"}) *
+		Function_Minor_Intervention_Value.Evaluate *
+		clamp(Function_Intervention_Helper_Low_Tech_Space_Stations.Evaluate + 
+		Function_Intervention_Helper_Space_Station_Shortage.Evaluate, 0.0, 1.0)
+	</Intervention_Trigger_Upgrade_Space_Station>
+	
+	<Intervention_Trigger_Build_Space_Units>
+		(Variable_Self.HasUnit {Parameter_Type = "Mon_Mothma_Team", Parameter_Type = "Grand_Moff_Tarkin_Team"}) *
+		Function_Minor_Intervention_Value.Evaluate *
+		(Variable_Self.CreditsUnnormalized > (1.33 * Variable_Enemy.CreditsUnnormalized)) *
+		(Variable_Enemy.SpaceTotalUnnormalized > (1.33 * Variable_Self.SpaceTotalUnnormalized))
+	</Intervention_Trigger_Build_Space_Units>
+	
+	<Intervention_Trigger_Build_Land_Units>
+		(Variable_Self.HasUnit {Parameter_Type = "Mon_Mothma_Team", Parameter_Type = "Grand_Moff_Tarkin_Team"}) *
+		Function_Minor_Intervention_Value.Evaluate *
+		(Variable_Self.CreditsUnnormalized > (1.33 * Variable_Enemy.CreditsUnnormalized)) *
+		(Variable_Enemy.GroundTotalUnnormalized > (1.33 * Variable_Self.GroundTotalUnnormalized))
+	</Intervention_Trigger_Build_Land_Units>	
+	
+	<Intervention_Trigger_Build_Light_Vehicle_Factories>
+		(Variable_Self.HasUnit {Parameter_Type = "Mon_Mothma_Team", Parameter_Type = "Grand_Moff_Tarkin_Team"}) *
+		Function_Minor_Intervention_Value.Evaluate *
+		(Variable_Self.HasTechToProduce {Parameter_Type = "E_Ground_Light_Vehicle_Factory", Parameter_Type = "R_Ground_Light_Vehicle_Factory"}) *
+		(Variable_Self.SpaceTotalUnnormalized > (2.0 * Variable_Self.GroundTotalUnnormalized)) *
+		(Variable_Self.PlanetsControlledUnnormalized > (3.0 * Variable_Self.StructureCount {Parameter_Type = "E_Ground_Light_Vehicle_Factory", Parameter_Type = "R_Ground_Light_Vehicle_Factory"}))
+	</Intervention_Trigger_Build_Light_Vehicle_Factories>
+	
+	<Intervention_Trigger_Build_Heavy_Vehicle_Factories>
+		(Variable_Self.HasUnit {Parameter_Type = "Mon_Mothma_Team", Parameter_Type = "Grand_Moff_Tarkin_Team"}) *
+		Function_Minor_Intervention_Value.Evaluate *
+		(Variable_Self.HasTechToProduce {Parameter_Type = "E_Ground_Heavy_Vehicle_Factory", Parameter_Type = "R_Ground_Heavy_Vehicle_Factory"}) *
+		(Variable_Self.SpaceTotalUnnormalized > (2.0 * Variable_Self.GroundTotalUnnormalized)) *
+		(Variable_Self.PlanetsControlledUnnormalized > (4.0 * Variable_Self.StructureCount {Parameter_Type = "E_Ground_Heavy_Vehicle_Factory", Parameter_Type = "R_Ground_Heavy_Vehicle_Factory"}))
+	</Intervention_Trigger_Build_Heavy_Vehicle_Factories>	
+	
+	<Intervention_Trigger_Build_Ion_Cannons>
+		(Variable_Self.HasUnit {Parameter_Type = "Mon_Mothma_Team", Parameter_Type = "Grand_Moff_Tarkin_Team"}) *
+		Function_Minor_Intervention_Value.Evaluate *
+		(Variable_Self.PlanetsControlled > 0.25) *
+		(Variable_Self.HasTechToProduce {Parameter_Type = "Ground_Ion_Cannon"}) *
+		(Variable_Self.PlanetsControlledUnnormalized > (3 * Variable_Self.StructureCount {Parameter_Type = "Ground_Ion_Cannon"}))
+	</Intervention_Trigger_Build_Ion_Cannons>
+	
+	<Intervention_Trigger_Accumulate_Credits>
+		(Variable_Self.HasUnit {Parameter_Type = "Mon_Mothma_Team", Parameter_Type = "Grand_Moff_Tarkin_Team"}) *
+		Function_Minor_Intervention_Value.Evaluate *
+		(5000 > Variable_Self.CreditsUnnormalized) *
+		Script_PersistentNegativeIncome.Evaluate {Parameter_Script_Number = 100.0}
+	</Intervention_Trigger_Accumulate_Credits>
+	
+	<Intervention_Trigger_Conquer_Pirate_Planet>
+		(Variable_Self.HasUnit {Parameter_Type = "Mon_Mothma_Team", Parameter_Type = "Grand_Moff_Tarkin_Team"}) *
+		Function_Minor_Intervention_Value.Evaluate *
+		Function_Is_Connected_To_Me.Evaluate *
+		Variable_Target.IsFaction {Parameter_Faction = "Pirates"}
+	</Intervention_Trigger_Conquer_Pirate_Planet>
+	
+	<Intervention_Trigger_Scout>
+		(Variable_Self.HasUnit {Parameter_Type = "Mon_Mothma_Team", Parameter_Type = "Grand_Moff_Tarkin_Team"}) *
+		Function_Minor_Intervention_Value.Evaluate *
+		(Variable_Self.HasUnit {Parameter_Type = "Droids_Team"} + Variable_Self.IsFaction {Parameter_Faction = "Empire"}) *
+		Function_Intervention_Helper_Good_Scout_Target.Evaluate *
+		(Variable_Self.PlanetsControlledUnnormalized > 5) *
+		(Variable_Target.TimeSinceSpaceConflict > 60.0)
+	</Intervention_Trigger_Scout>
+	
+	<Intervention_Trigger_Conquer_Enemy_Planet>
+		(Variable_Self.HasUnit {Parameter_Type = "Mon_Mothma_Team", Parameter_Type = "Grand_Moff_Tarkin_Team"}) *
+		Function_Minor_Intervention_Value.Evaluate *
+		Function_Is_Connected_To_Me.Evaluate *
+		(Variable_Target.IsFaction {Parameter_Faction = "Pirates"} == 0.0) *
+		Function_GenericPlanetValue.Evaluate *
+		Function_Intervention_Helper_Am_I_In_Healthy_Position.Evaluate
+	</Intervention_Trigger_Conquer_Enemy_Planet>	
+	
+	<Intervention_Trigger_Credit_Windfall>
+		(Variable_Self.HasUnit {Parameter_Type = "Mon_Mothma_Team", Parameter_Type = "Grand_Moff_Tarkin_Team"}) *
+		Function_Major_Intervention_Value.Evaluate *
+		Function_Intervention_Helper_Am_I_In_Weak_Position.Evaluate *
+		((1000  * Variable_Self.TechLevel) > Variable_Self.CreditsUnnormalized)		
+	</Intervention_Trigger_Credit_Windfall>
+	
+	<Intervention_Trigger_Space_Unit_Windfall>
+		(Variable_Self.HasUnit {Parameter_Type = "Mon_Mothma_Team", Parameter_Type = "Grand_Moff_Tarkin_Team"}) *
+		Function_Major_Intervention_Value.Evaluate *
+		Function_Intervention_Helper_Am_I_In_Weak_Position.Evaluate *
+		(0.25 > Variable_Self.MaxedStarbases)		
+	</Intervention_Trigger_Space_Unit_Windfall>
+	
+	<Intervention_Trigger_Land_Unit_Windfall>
+		(Variable_Self.HasUnit {Parameter_Type = "Mon_Mothma_Team", Parameter_Type = "Grand_Moff_Tarkin_Team"}) *
+		Function_Major_Intervention_Value.Evaluate *
+		Function_Intervention_Helper_Am_I_In_Weak_Position.Evaluate *
+		(5 > Variable_Self.StructureCount {Parameter_Type = "R_Ground_Light_Vehicle_Factory",
+											Parameter_Type = "E_Ground_Light_Vehicle_Factory",
+											Parameter_Type = "R_Ground_Heavy_Vehicle_Factory",
+											Parameter_Type = "E_Ground_Heavy_Vehicle_Factory"})	
+	</Intervention_Trigger_Land_Unit_Windfall>
+	
+	<Intervention_Trigger_Planet_Windfall>
+		(Variable_Self.HasUnit {Parameter_Type = "Mon_Mothma_Team", Parameter_Type = "Grand_Moff_Tarkin_Team"}) *
+		Function_Major_Intervention_Value.Evaluate *
+		Function_Intervention_Helper_Am_I_In_Weak_Position.Evaluate *
+		(0.33 > Variable_Self.PlanetsControlled) *
+		Function_Is_Connected_To_Me.Evaluate
+	</Intervention_Trigger_Planet_Windfall>
+	
+	<Intervention_Trigger_Tech_Windfall>
+		(Variable_Self.HasUnit {Parameter_Type = "Mon_Mothma_Team", Parameter_Type = "Grand_Moff_Tarkin_Team"}) *
+		Function_Major_Intervention_Value.Evaluate *
+		(Variable_Enemy.TechLevel - Variable_Self.TechLevel - 1)
+	</Intervention_Trigger_Tech_Windfall>
+	
+	<Intervention_Trigger_Indigenous_Revolt>
+		(Variable_Self.HasUnit {Parameter_Type = "Mon_Mothma_Team", Parameter_Type = "Grand_Moff_Tarkin_Team"}) *
+		Function_Minor_Intervention_Value.Evaluate *
+		Variable_Self.IsFaction {Parameter_Faction = "Rebel"} *
+		Variable_Target.IsFaction {Parameter_Faction = "Empire"} *
+		Variable_Target.HasIndigenousUnits {Parameter_Type = "Ewok_Hunter", 
+												Parameter_Type = "Gungan_Warrior", 
+												Parameter_Type = "Wookie_Warrior",
+												Parameter_Type = "Jawa_Scout",
+												Parameter_Type = "Urban_Civilian_A"} *
+		(7000 > Variable_Target.EnemyForce.GroundTotalUnnormalized) *
+		(Variable_Target.EnemyForce.GroundTotalUnnormalized > 0)
+	</Intervention_Trigger_Indigenous_Revolt>
+	
+	<Intervention_Trigger_Hunt_Capital_Ships>
+		(Variable_Self.HasUnit {Parameter_Type = "Mon_Mothma_Team", Parameter_Type = "Grand_Moff_Tarkin_Team"}) *
+		Function_Minor_Intervention_Value.Evaluate *	
+		Variable_Enemy.HasUnit {Parameter_Type = "Calamari_Cruiser", Parameter_Type = "Star_Destroyer", Parameter_Count = 5}
+	</Intervention_Trigger_Hunt_Capital_Ships>
+	
+	<Intervention_Trigger_Rebel_Smuggler>
+		(Variable_Self.HasUnit {Parameter_Type = "Grand_Moff_Tarkin_Team"}) *
+		Function_Minor_Intervention_Value.Evaluate *
+		Variable_Self.IsFaction {Parameter_Faction = "Empire"} *
+		Variable_Target.IsFaction {Parameter_Faction = "Rebel"} *
+		(Variable_Enemy.HasUnit {Parameter_Type = "Han_Solo_Team"} == 0) *
+		(Variable_Enemy.PlanetsControlledUnnormalized > 2) *
+		Function_Is_Connected_To_Me.Evaluate
+	</Intervention_Trigger_Rebel_Smuggler>
+	
+	<Intervention_Trigger_Pirate_Ambush>
+		(Variable_Self.HasUnit {Parameter_Type = "Grand_Moff_Tarkin_Team"}) *
+		Function_Minor_Intervention_Value.Evaluate *
+		Variable_Self.IsFaction {Parameter_Faction = "Empire"}
+	</Intervention_Trigger_Pirate_Ambush>
+	
+	<Intervention_Trigger_Vader_Favor>
+		(Variable_Self.HasUnit {Parameter_Type = "Grand_Moff_Tarkin_Team"}) *
+		(Variable_Self.HasUnit {Parameter_Type = "Darth_Team"}) *
+		Function_Minor_Intervention_Value.Evaluate *
+		Variable_Self.IsFaction {Parameter_Faction = "Empire"} *
+		Variable_Target.IsFaction {Parameter_Faction = "Rebel"} *
+		(Variable_Enemy.PlanetsControlledUnnormalized > 2) *
+		Function_Is_Connected_To_Me.Evaluate
+	</Intervention_Trigger_Vader_Favor>
+	
+	<Intervention_Trigger_Imperial_Traitor>
+		(Variable_Self.HasUnit {Parameter_Type = "Grand_Moff_Tarkin_Team"}) *
+		Function_Minor_Intervention_Value.Evaluate *
+		Variable_Self.IsFaction {Parameter_Faction = "Empire"} *
+		(1.0 - Variable_Target.Type.IsType {Parameter_Type = "DANTOOINE", Parameter_Type = "HOTH"}) *
+		Variable_Target.IsFaction {Parameter_Faction = "Rebel"} *
+		(Variable_Enemy.PlanetsControlledUnnormalized > 2) *
+		Function_Is_Connected_To_Me.Evaluate
+	</Intervention_Trigger_Imperial_Traitor>
+	
+	<Intervention_Trigger_Rebel_Sabotage>
+		(Variable_Self.HasUnit {Parameter_Type = "Grand_Moff_Tarkin_Team"}) *
+		Function_Minor_Intervention_Value.Evaluate *
+		Variable_Self.IsFaction {Parameter_Faction = "Empire"} *
+		Variable_Target.IsFaction {Parameter_Faction = "Rebel"} *
+		Variable_Self.HasUnit {Parameter_Type = "Boba_Fett_Team"}
+	</Intervention_Trigger_Rebel_Sabotage>
+	
+	<!-- Cutting missions that flip player planets -->
+	<!--<Intervention_Trigger_Rebel_Revolt>
+		(Variable_Self.HasUnit {Parameter_Type = "Grand_Moff_Tarkin_Team"}) *
+		Function_Minor_Intervention_Value.Evaluate *
+		Variable_Target.IsFaction {Parameter_Faction = "Empire"} *
+		(1.0 - Variable_Target.Type.IsType {Parameter_Type = "CORUSCANT"}) *
+		Variable_Self.IsFaction {Parameter_Faction = "Empire"} *
+		(Variable_Self.PlanetsControlledUnnormalized > 4) *
+		(Variable_Target.FriendlyForce.HasGroundUnitsBitfield {Parameter_Category = GameObjectCategoryType[Hero]} == 0) *
+		(Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Category = GameObjectCategoryType[Hero]} == 0)		
+	</Intervention_Trigger_Rebel_Revolt> -->
+
+	<Intervention_Trigger_Rebel_Revolt>
+		0.0
+	</Intervention_Trigger_Rebel_Revolt>
+	
+	<!-- Cutting missions that flip player planets -->
+	<!--<Intervention_Trigger_Pirate_Defection>
+		(Variable_Self.HasUnit {Parameter_Type = "Grand_Moff_Tarkin_Team"}) *
+		Function_Minor_Intervention_Value.Evaluate *
+		Variable_Target.IsFaction {Parameter_Faction = "Empire"} *
+		(1.0 - Variable_Target.Type.IsType {Parameter_Type = "CORUSCANT"}) *
+		Variable_Self.IsFaction {Parameter_Faction = "Empire"} *
+		(Variable_Self.TechLevel >= 2)
+	</Intervention_Trigger_Pirate_Defection>-->
+
+	<Intervention_Trigger_Pirate_Defection>
+		0.0
+	</Intervention_Trigger_Pirate_Defection>
+
+	<!-- More cuts!  We don't like this mission -->
+	<!--<Intervention_Trigger_Refugee_Escort>
+		(Variable_Self.HasUnit {Parameter_Type = "Mon_Mothma_Team"}) *
+		Function_Minor_Intervention_Value.Evaluate *
+		Variable_Target.IsFaction {Parameter_Faction = "Empire"} *
+		Variable_Self.IsFaction {Parameter_Faction = "Rebel"} *
+		(Variable_Self.HasUnit {Parameter_Type = "Han_Solo_Team", Parameter_Type = "Droids_Team"})
+	</Intervention_Trigger_Refugee_Escort>-->
+	
+	<Intervention_Trigger_Refugee_Escort>
+		0.0
+	</Intervention_Trigger_Refugee_Escort>
+	
+	<Intervention_Trigger_Confront_Boba>
+		(Variable_Self.HasUnit {Parameter_Type = "Mon_Mothma_Team"}) *
+		Function_Minor_Intervention_Value.Evaluate *
+		Variable_Self.IsFaction {Parameter_Faction = "Rebel"} *
+		Variable_Target.IsFaction {Parameter_Faction = "Empire"} *
+		(Variable_Enemy.HasUnit {Parameter_Type = "Boba_Fett_Team"} == 0) *
+		(Variable_Enemy.PlanetsControlledUnnormalized > 2) *
+		Function_Is_Connected_To_Me.Evaluate
+	</Intervention_Trigger_Confront_Boba>
+	
+	<Intervention_Trigger_Pirate_Rescue>
+		(Variable_Self.HasUnit {Parameter_Type = "Mon_Mothma_Team"}) *
+		Function_Minor_Intervention_Value.Evaluate *
+		Variable_Target.IsFaction {Parameter_Faction = "Empire"} *
+		Variable_Self.IsFaction {Parameter_Faction = "Rebel"} *
+		(Variable_Enemy.PlanetsControlledUnnormalized > 2) *
+		Function_Is_Connected_To_Me.Evaluate
+	</Intervention_Trigger_Pirate_Rescue>
+	
+	<Intervention_Trigger_Pirate_Enlightenment>
+		(Variable_Self.HasUnit {Parameter_Type = "Mon_Mothma_Team"}) *
+		Function_Minor_Intervention_Value.Evaluate *		
+		Variable_Target.IsFaction {Parameter_Faction = "Empire"} *
+		Variable_Self.IsFaction {Parameter_Faction = "Rebel"} *
+		(Variable_Target.FriendlyForce.HasSpaceForce == 0)
+	</Intervention_Trigger_Pirate_Enlightenment>
+	
+	<Intervention_Trigger_Pirate_Enlightenment_b>
+		(Variable_Self.HasUnit {Parameter_Type = "Mon_Mothma_Team"}) *
+		Function_Minor_Intervention_Value.Evaluate *		
+		Variable_Target.IsFaction {Parameter_Faction = "Empire"} *
+		(1.0 - Variable_Target.Type.IsType {Parameter_Type = "CORUSCANT"}) *
+		Variable_Self.IsFaction {Parameter_Faction = "Rebel"} *
+		(Variable_Target.FriendlyForce.HasSpaceForce == 0)
+	</Intervention_Trigger_Pirate_Enlightenment_b>
+	
+	<!-- Disabling this mission, since I can't come up with a way to make it bugfree -->
+	<!-- <Intervention_Trigger_Show_of_Strength>
+		(Variable_Self.HasUnit {Parameter_Type = "Mon_Mothma_Team"}) *
+		Function_Minor_Intervention_Value.Evaluate *
+		Variable_Target.IsFaction {Parameter_Faction = "Empire"} *
+		(1.0 - Variable_Target.Type.IsType {Parameter_Type = "CORUSCANT"}) *
+		Variable_Self.IsFaction {Parameter_Faction = "Rebel"} *
+		(Variable_Enemy.PlanetsControlledUnnormalized > 1)
+	</Intervention_Trigger_Show_of_Strength> -->
+	
+	<Intervention_Trigger_Show_Of_Strength>
+		0.0
+	</Intervention_Trigger_Show_Of_Strength>
+	
+	<Intervention_Trigger_Fleet_Rescue>
+		(Variable_Self.HasUnit {Parameter_Type = "Mon_Mothma_Team"}) *
+		Function_Minor_Intervention_Value.Evaluate *
+		Variable_Target.IsFaction {Parameter_Faction = "Empire"} *
+		(1.0 - Variable_Target.Type.IsType {Parameter_Type = "CORUSCANT"}) *
+		Variable_Self.IsFaction {Parameter_Faction = "Rebel"} *
+		(Variable_Enemy.PlanetsControlledUnnormalized > 2) *
+		Function_Is_Connected_To_Me.Evaluate
+	</Intervention_Trigger_Fleet_Rescue>
+	
+	<Intervention_Trigger_Empire_Oppression>
+		(Variable_Self.HasUnit {Parameter_Type = "Mon_Mothma_Team"}) *
+		Function_Minor_Intervention_Value.Evaluate *
+		Variable_Target.IsFaction {Parameter_Faction = "Empire"} *
+		(125.0 > Variable_Target.TimeSinceConversion) *
+		(1.0 - Variable_Target.Type.IsType {Parameter_Type = "CORUSCANT"}) *
+		Variable_Self.IsFaction {Parameter_Faction = "Rebel"}
+	</Intervention_Trigger_Empire_Oppression>
+	
+	
+<!--*********************************************************************************************************************-->	
+	
+	<Intervention_Helper_Ion_Cannons_To_Build>
+		(1 # clamp((Variable_Self.PlanetsControlledUnnormalized - Variable_Self.StructureCount {Parameter_Type = "Ground_Ion_Cannon"}), 1.0, 4.0))
+	</Intervention_Helper_Ion_Cannons_To_Build>
+	
+	<Intervention_Helper_Has_Ion_Cannon>
+		Variable_Target.HasStructure {Parameter_Type = "Ground_Ion_Cannon"}
+	</Intervention_Helper_Has_Ion_Cannon>
+	
+	<Intervention_Helper_Light_Vehicle_Factories_To_Build>
+		(1 # clamp((Variable_Self.PlanetsControlledUnnormalized - Variable_Self.StructureCount {Parameter_Type = "R_Ground_Light_Vehicle_Factory", Parameter_Type = "E_Ground_Light_Vehicle_Factory"}), 1.0, 3.0))
+	</Intervention_Helper_Light_Vehicle_Factories_To_Build>
+	
+	<Intervention_Helper_Has_Light_Vehicle_Factory>
+		Variable_Target.HasStructure {Parameter_Type = "R_Ground_Light_Vehicle_Factory", Parameter_Type = "E_Ground_Light_Vehicle_Factory"}
+	</Intervention_Helper_Has_Light_Vehicle_Factory>
+	
+	<Intervention_Helper_Heavy_Vehicle_Factories_To_Build>
+		(1 # clamp((Variable_Self.PlanetsControlledUnnormalized - Variable_Self.StructureCount {Parameter_Type = "R_Ground_Heavy_Vehicle_Factory", Parameter_Type = "E_Ground_Heavy_Vehicle_Factory"}), 1.0, 2.0))
+	</Intervention_Helper_Heavy_Vehicle_Factories_To_Build>
+	
+	<Intervention_Helper_Has_Heavy_Vehicle_Factory>
+		Variable_Target.HasStructure {Parameter_Type = "R_Ground_Heavy_Vehicle_Factory", Parameter_Type = "E_Ground_Heavy_Vehicle_Factory"}
+	</Intervention_Helper_Has_Heavy_Vehicle_Factory>
+		
+	<Intervention_Helper_Low_Tech_Space_Stations>
+		(Variable_Self.PlanetsControlled > 0.33) * 
+		(0.33 > Variable_Self.MaxedStarbases) *
+		(Variable_Self.CreditsUnnormalized > 10000) *
+		(Variable_Target.MaxStarbaseLevel > Variable_Target.StarbaseLevel)
+	</Intervention_Helper_Low_Tech_Space_Stations>	
+	
+	<Intervention_Helper_Space_Station_Shortage>
+		(Variable_Self.PlanetsControlledUnnormalized > (2.5 * Variable_Self.NumStarbaseOfLevel {Parameter_Level = 1})) *
+		(Variable_Target.StarbaseLevel == 0) *
+		(Variable_Target.MaxStarbaseLevel > 0)
+	</Intervention_Helper_Space_Station_Shortage>
+	
+	<Intervention_Helper_Good_Scout_Target>
+		(Variable_Target.FriendlyForce.HasSpaceForce == 0.0) *
+		(Variable_Target.FriendlyForce.HasGroundForce == 0.0) *
+		Function_Is_Connected_To_Me.Evaluate
+	</Intervention_Helper_Good_Scout_Target>
+	
+	<Intervention_Helper_Am_I_In_Healthy_Position>
+		(Variable_Self.PlanetsControlled > 0.33) *
+		(Variable_Self.SpaceTotalUnnormalized > (0.75 * Variable_Enemy.SpaceTotalUnnormalized)) *
+		(Variable_Self.GroundTotalUnnormalized > (0.75 * Variable_Enemy.GroundTotalUnnormalized)) *
+		(Variable_Self.CreditsUnnormalized > 10000)	
+	</Intervention_Helper_Am_I_In_Healthy_Position>	
+		
+	<Intervention_Helper_Am_I_In_Weak_Position>
+		0.5 *
+		(Variable_Enemy.PlanetsControlled > 0.5) *
+		((Variable_Enemy.SpaceTotalUnnormalized > Variable_Self.SpaceTotalUnnormalized) +
+		(Variable_Enemy.GroundTotalUnnormalized > Variable_Self.GroundTotalUnnormalized))
+	</Intervention_Helper_Am_I_In_Weak_Position>	
+		
+	<Intervention_Helper_Weakly_Defended_Space>
+		1.0 - Variable_Target.FriendlyForce.SpaceTotal
+	</Intervention_Helper_Weakly_Defended_Space>	
+		
+</Equations>

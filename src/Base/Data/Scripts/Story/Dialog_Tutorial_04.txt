@@ -1,0 +1,158 @@
+[CHAPTER 0]
+
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+TEXT TEXT_STORY_TUTORIAL_EMPIRE_ACT04_03
+# Capture the Kashyyyk system.
+
+NEWLINE 1
+
+TEXT TEXT_SPEECH_TUTORIAL_EMPIRE_ACT04_04
+# Hint:  To move a fleet across the galaxy, drag the fleet icon to the space slot above a planet. 
+# Once your fleet is in orbit above Kashyyyk you can then drag them to the surface of the planet to capture it. 
+
+# DIALOG TUTORIAL_EMPIRE_ACT04_04 
+
+
+[CHAPTER 1]
+
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+TEXT TEXT_STORY_TUTORIAL_EMPIRE_ACT04_09
+# Upgrade space station on Nal Hutta.  
+
+NEWLINE 1
+
+TEXT TEXT_SPEECH_TUTORIAL_EMPIRE_ACT04_10
+# Hint:  Upgrading your space station will make it a stronger defensive structure, and will also allow you to support more units.  
+# Switch to space production mode by selecting the space production tab.  Then, build a Space Station by clicking on the Space Station icon. 
+
+# DIALOG TUTORIAL_EMPIRE_ACT04_10
+
+
+[CHAPTER 2]
+
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+TEXT TEXT_STORY_TUTORIAL_EMPIRE_ACT04_12
+# Construct Research Facility on Nal Hutta. 
+
+NEWLINE 1
+
+TEXT TEXT_SPEECH_TUTORIAL_EMPIRE_ACT04_14
+# Hint: Unlike the Rebels, all Empire-based technology is dependent upon the presence of base structures, known as Research Facilities.  
+# Switch to land production mode by selecting the land production tab.  Then, build a Research Facility by clicking on the Research Facility icon.
+
+# DIALOG TUTORIAL_EMPIRE_ACT04_14
+
+
+[CHAPTER 3]
+
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+TEXT TEXT_STORY_TUTORIAL_EMPIRE_ACT04_13
+# Upgrade to Technology Level 2. 
+
+NEWLINE 1
+
+TEXT TEXT_SPEECH_TUTORIAL_EMPIRE_ACT04_65
+# Hint: Upgrading your technology level will provide you with access to new units, structures, and upgrades.  
+# Switch to land production mode by selecting the land production tab.  Then, upgrade your technology level by clicking on the Upgrade Technology icon.
+
+# DIALOG TUTORIAL_EMPIRE_ACT04_65
+
+
+
+[CHAPTER 4]
+
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+TEXT TEXT_STORY_TUTORIAL_EMPIRE_ACT04_21
+# Neutralize smuggler on Nal Hutta. 
+
+NEWLINE 1
+
+TEXT TEXT_SPEECH_TUTORIAL_EMPIRE_ACT04_22 
+# Hint: Whenever the total credit value of a planet is modified it will be visible at the planet itself.  
+# In this case, the credits generated at Nal Hutta have been reduced by the presence of an enemy smuggler.
+
+# DIALOG TUTORIAL_EMPIRE_ACT04_22
+
+
+[CHAPTER 5]
+
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+TEXT TEXT_STORY_TUTORIAL_EMPIRE_ACT04_24
+# Deploy Probe Droids to all nearby systems. 
+
+NEWLINE 1
+
+TEXT TEXT_SPEECH_TUTORIAL_EMPIRE_ACT04_25
+# Hint: In order to receive information on nearby enemy systems, the Empire must use Probe Droids.  
+# Whenever Probe Droids are deployed to the surface of a planet, information about that planet will be revealed to the Empire.
+
+# DIALOG TUTORIAL_EMPIRE_ACT04_25
+
+
+[CHAPTER 6]
+
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+TEXT TEXT_STORY_TUTORIAL_EMPIRE_ACT04_32
+# Construct 2 Acclamator ships. 
+
+NEWLINE 1
+
+TEXT TEXT_SPEECH_TUTORIAL_EMPIRE_ACT04_33
+# Hint: Most Imperial ships, such as Acclamator ships, contain bomber units.  
+# Whenever bomber units are positioned in orbit above an enemy planet, bombing run attacks may be used 
+# while you are involved in a land battle at that planet.
+
+# DIALOG TUTORIAL_EMPIRE_ACT04_33
+
+
+[CHAPTER 7]
+
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+TEXT TEXT_STORY_TUTORIAL_EMPIRE_ACT04_75
+# Construct an Officer Academy. 
+TEXT TEXT_STORY_TUTORIAL_EMPIRE_ACT04_35
+# Recruit a Field Commander. 
+
+NEWLINE 1
+
+TEXT TEXT_SPEECH_TUTORIAL_EMPIRE_ACT04_36
+# Hint: Field Commanders provide combat bonuses to all friendly units within a battle.  
+# You must have access to an Officer Academy in order to recruit a Field Commander.  
+# Switch to land production mode by selecting the land production tab.  
+# Then, build a Officer Academy and Field Commander by clicking on the appropriate icons.
+
+# DIALOG TUTORIAL_EMPIRE_ACT04_36
+
+

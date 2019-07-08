@@ -1,0 +1,328 @@
+[CHAPTER 0] 
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+TEXT TEXT_STORY_REBEL_ACT01_MISSION_TWO_00
+# Interpreting the Network
+
+NEWLINE 1
+
+TEXT TEXT_STORY_REBEL_ACT01_MISSION_TWO_01
+# With sensor drones deployed around Fresia, the Alliance is
+# once again thwarted from stealing the X-wing fighters.
+# The Imperials' reliance on a relatively unguarded network
+# uplink on Wayland may be the key to getting past the sensors
+# undetected.   
+
+NEWLINE 1
+
+TEXTCOLOR 109 247 255 255
+TEXT TEXT_STORY_REBEL_ACT01_MISSION_TWO_02
+# Task: Take R2-D2 with a ground assault force to Wayland
+# and have him steal codes from the Imperial network.
+
+
+
+[CHAPTER 1]
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+TEXT TEXT_STORY_REBEL_ACT01_MISSION_THREE_00
+# Theft of the X-Wing
+
+NEWLINE 1
+
+TEXT TEXT_STORY_REBEL_ACT01_MISSION_THREE_01
+# Now that all obstacles have been cleared from space, the
+# final assault on Fresia can begin.  The target is Incom's
+# prototype X-wing fighters.  The Alliance has put together
+# a crack team of pilots ready to fly them back to the Rebel
+# base.  Now it is up to the landing forces to get the pilots
+# safely to the ships.   
+
+NEWLINE 1
+
+TEXTCOLOR 109 247 255 255
+TEXT TEXT_STORY_REBEL_ACT01_MISSION_THREE_02
+# Task: Take a ground assault force to Fresia and capture
+# the X-wing fighters.  
+
+
+
+[CHAPTER 2]
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+TEXT TEXT_STORY_REBEL_ACT02_MISSION_FOUR_00
+# Kessel Rescue
+
+NEWLINE 1
+
+TEXT TEXT_STORY_REBEL_ACT02_MISSION_FOUR_01
+# During the Fresia crackdown after the Alliance theft of the
+# X-wings, many Incom scientists were captured.  The prisoners
+# are being transported in Imperial shuttles as part of a
+# convoy headed for Kessel.  They will have to go slowly to
+# navigate an asteroid field in the area, and will not want to
+# risk damaging large capital ships - this makes them vulnerable.
+
+NEWLINE 1
+
+TEXTCOLOR 109 247 255 255
+TEXT TEXT_STORY_REBEL_ACT02_MISSION_FOUR_02
+# Task: Use Y-wing fighter's ion cannon special ability to
+# immobilize the convoy's shuttles, then rescue the prisoners
+# with the Sundered Heart. 
+
+
+
+[CHAPTER 3]
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+TEXT TEXT_STORY_REBEL_ACT02_MISSION_FIVE_00
+# Stealing from the Rich
+
+NEWLINE 1
+
+TEXT TEXT_STORY_REBEL_ACT02_MISSION_FIVE_01
+# Hearing rumors of an Imperial superweapon in the works, the
+# Alliance decides to use its most unlikely heroes - a pair of
+# droids - to intercept Empire communications and learn more
+# about what they're up to.
+
+NEWLINE 1
+
+TEXTCOLOR 109 247 255 255
+TEXT TEXT_STORY_REBEL_ACT02_MISSION_FIVE_02
+# Task: Drag the droids into the Steal action on an Imperial
+# planet to steal technology.
+
+
+
+[CHAPTER 4]
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+TEXT TEXT_STORY_REBEL_ACT02_MISSION_SIX_00
+# Imperial Liberation
+
+NEWLINE 1
+
+TEXT TEXT_STORY_REBEL_ACT02_MISSION_SIX_01
+# The news of a prison break on Kashyyyk is causing the Empire
+# a great deal of grief.  A lone rogue has taken it upon himself
+# to liberate the prisoners from their containment and help them
+# fight off the Empire's slavers.
+
+NEWLINE 1
+
+TEXTCOLOR 109 247 255 255
+TEXT TEXT_STORY_REBEL_ACT02_MISSION_SIX_02
+# Task: Send a ground assault force to Kashyyyk and assist this
+# crusader in liberating as many Wookiees as possible.
+
+
+
+[CHAPTER 5]
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+TEXT TEXT_STORY_REBEL_ACT03_MISSION_SEVEN_00
+# Highest Bidder
+
+NEWLINE 1
+
+TEXT TEXT_STORY_REBEL_ACT03_MISSION_SEVEN_01
+# In contacting some of the underworld's more questionable sources
+# of information, Mon Mothma has inadvertently put the Alliance at
+# risk.  A pirate associate of one of the contacts has obtained
+# data on the locations of Alliance sympathizers and facilities.
+# If this data were to fall into the hands of the Empire, the
+# Alliance would be in great jeopardy! 
+
+NEWLINE 1
+
+TEXTCOLOR 109 247 255 255
+TEXT TEXT_STORY_REBEL_ACT03_MISSION_SEVEN_03
+# Task: Build a fleet. Escort  Captain Antilles to Atzerri and
+# recover the data.
+
+
+
+[CHAPTER 6]
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+TEXT TEXT_STORY_REBEL_ACT03_MISSION_SEVEN_A_00
+# Rescue the Millenium Falcon
+
+NEWLINE 1
+
+TEXT TEXT_STORY_REBEL_ACT03_MISSION_SEVEN_A_01
+# No sooner does the Alliance need the assistance of a smuggler
+# than one they've had past dealings with volunteers - albeit
+# unintentionally.  Han Solo seems to have run afoul of the Empire
+# yet again.  This time, he's caught in a tractor beam of an
+# Imperial Star Destroyer, more than likely looking for illegitimate
+# cargo that he's carrying.  In return for saving his neck, the
+# Alliance will certainly be able to persuade him to assist in
+# future operations.  
+
+NEWLINE 1
+
+TEXTCOLOR 109 247 255 255
+TEXT TEXT_STORY_REBEL_ACT03_MISSION_SEVEN_A_02
+# Task: Take a fleet to Corellia and rescue Han Solo.
+
+
+
+[CHAPTER 7]
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+TEXT TEXT_STORY_REBEL_ACT03_MISSION_EIGHT_00
+# Needle in a Haystack
+
+NEWLINE 1
+
+TEXT TEXT_STORY_REBEL_ACT03_MISSION_EIGHT_01
+# Now that the Alliance knows the location of one of Grand Moff
+# Tarkin's research facilities, it is imperative to retrieve
+# additional information on this superweapon.  The station is
+# heavily defended, so Han Solo has been tasked with infiltrating
+# an Imperial cargo facility and attaching an EMP device to a
+# container bound for Tarkin's station.  The mission must be covert,
+# as any attention will cause greater scrutiny on the cargo, and
+# our bomb may not reach its target.  
+
+NEWLINE 1
+
+TEXTCOLOR 109 247 255 255
+TEXT TEXT_STORY_REBEL_ACT03_MISSION_EIGHT_02
+# Task: Take Han Solo to Vergesso, find the cargo container bound
+# for the research facility, and attach the EMP device to it.
+
+
+
+[CHAPTER 8]
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+TEXT TEXT_STORY_REBEL_ACT03_MISSION_NINE_00
+# Borrowed Time
+
+NEWLINE 1
+
+TEXT TEXT_STORY_REBEL_ACT03_MISSION_NINE_01
+# With the cargo container holding the EMP device delivered to
+# the station, now is the time to launch our raid and secure data
+# on this Imperial superweapon.  Once the fleet nears the system,
+# the EMP will be detonated, granting us the most time possible to
+# get to the station and search for information.  Several raiding
+# parties are ready to board the station - we just have to make sure
+# no other Imperials show up! 
+
+NEWLINE 1
+
+TEXTCOLOR 109 247 255 255
+TEXT TEXT_STORY_REBEL_ACT03_MISSION_NINE_02
+# Task: Build a fleet. Escort the Sundered Heart to Corulag and
+# protect the shuttles while the soldiers search for information.
+
+
+
+[CHAPTER 9]
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+TEXT TEXT_STORY_REBEL_ACT03_MISSION_TEN_00
+# Handle with Care!
+
+NEWLINE 1
+
+TEXT TEXT_STORY_REBEL_ACT03_MISSION_TEN_01
+# Mon Mothma has sent out the call for Han Solo and Chewbacca,
+# asking them to perform a service in return for a surprisingly large
+# fee.  What the task is, only Mon Mothma can say.
+
+NEWLINE 1
+
+TEXTCOLOR 109 247 255 255
+TEXT TEXT_STORY_REBEL_ACT03_MISSION_TEN_02
+# Task: Move the Millennium Falcon to Mon Mothma's location.
+
+
+
+[CHAPTER 10]
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+TEXT TEXT_STORY_REBEL_ACT04_MISSION_ELEVEN_00
+# The Defense of Mon Calamari
+
+NEWLINE 1
+
+TEXT TEXT_STORY_REBEL_ACT04_MISSION_ELEVEN_02
+# Wasting no time, the Empire sets a plan in motion to retake Mon
+# Calamari and prevent its people from becoming a threat to Imperial
+# domination.  A massive fleet has been organized, and will soon leave
+# from Imperial controlled space.  Their mission: retake the rebellious
+# planet Mon Calamari.   
+
+NEWLINE 1
+
+TEXTCOLOR 109 247 255 255
+TEXT TEXT_STORY_REBEL_ACT04_MISSION_ELEVEN_03
+# Task: Defeat the Imperial fleet before it can reach Mon Calamari.
+
+
+
+[CHAPTER 11]
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+TEXT TEXT_STORY_REBEL_ACT04_MISSION_TWELVE_00
+# The Final Battle
+
+NEWLINE 1
+
+TEXT TEXT_STORY_REBEL_ACT04_MISSION_TWELVE_01
+# The Empire's ultimate weapon, The Death Star, has been unleashed upon
+# an unsuspecting galaxy.  The planet Alderaan was the first to pay
+# the price, with millions of deaths being the cost.  The Rebel fleet
+# is far too weak to confront the battle station head on, but with the
+# aid of General Dodonna's military knowledge and courageous fighter
+# pilots, the Rebellion may yet have a chance.  
+
+NEWLINE 1
+
+TEXTCOLOR 109 247 255 255
+TEXT TEXT_STORY_REBEL_ACT04_MISSION_TWELVE_02
+# Task: Confront the Death Star in a tactical battle that includes
+# Red Squadron.  If Red Squadron survives the battle, Luke can destroy
+# the Death Star and win the game

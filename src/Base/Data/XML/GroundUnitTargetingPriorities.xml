@@ -1,0 +1,195 @@
+<?xml version="1.0" ?>
+
+<Targeting_Priority_Sets>
+	<!-- DEFAULT PRIORITY SETS FOR BOTH AI AND HUMAN PLAYERS ==================================
+	The default priority set for each class will favor units that 
+	the unit has good RPS advantage over.  These should not contain
+	many exclusions or any hard point target priorities.
+	-->
+
+	<Priority_Set Name="AntiInfantry">
+		<Attack_Priorities>
+			LandHero, 0.5,	Infantry, 1.0,		Turret, 2.0,		Vehicle, 3.0,
+		</Attack_Priorities>
+		<Category_Exclusions>
+			Wall, Structure, Air
+		</Category_Exclusions>
+	</Priority_Set>
+
+	<Priority_Set Name="AntiVehicle">
+		<Attack_Priorities>
+			Vehicle, 1.0,  LandHero, 1.5,	   Turret, 2.0,      Infantry, 3.0,
+		</Attack_Priorities>
+		<Category_Exclusions>
+			Wall, Structure, Air
+		</Category_Exclusions>
+	</Priority_Set>
+
+    <Priority_Set Name="AntiVehicleStructure">
+        <Attack_Priorities>
+            Vehicle, 1.0,  LandHero, 1.5,	   Turret, 2.0,      Infantry, 3.0, Structure, 4.0
+        </Attack_Priorities>
+        <Category_Exclusions>
+            Wall, Air
+        </Category_Exclusions>
+    </Priority_Set>
+
+	<Priority_Set Name="AntiAir">
+		<Attack_Priorities>
+			Vehicle, 1.0,	Turret, 2.0,	Infantry, 3.0,
+		</Attack_Priorities>
+		<Category_Exclusions>
+			Wall, Structure
+		</Category_Exclusions>
+	</Priority_Set>
+
+    <Priority_Set Name="ATATAntiEverything">
+        <Attack_Priorities>
+            Vehicle, 1.0,  LandHero, 2.5,	Turret, 2.0,  Infantry, 4.0, Structure, 3.0
+        </Attack_Priorities>
+        <Category_Exclusions>
+            Wall
+        </Category_Exclusions>
+    </Priority_Set>
+
+
+	<!-- AI SPECIFIC TARGETING PRIORITY SETS ===================================================
+	These should never be assigned as the unit defaults, because 
+	they would affect the human player -->
+
+	<!-- No_Structure means no threatening structure, i.e. even though turrets 
+	are technically structures, we'll not exclude them.
+	-->
+
+	<Priority_Set Name="AntiStructure">
+		<Attack_Priorities>
+			Turret, 1.0,	Vehicle, 2.0,	Infantry, 3.0,	TacticalStructure, 4.0
+		</Attack_Priorities>
+		<Category_Exclusions>
+			Wall, Air
+		</Category_Exclusions>
+	</Priority_Set>
+
+	<Priority_Set Name="AntiInfantry_No_Structures">
+		<Attack_Priorities>
+			LandHero, 0.5,	Infantry, 1.0,	TacticalStructure, 2.0
+		</Attack_Priorities>
+		<Category_Exclusions>
+			Wall, Structure, Air
+		</Category_Exclusions>
+	</Priority_Set>
+
+	<Priority_Set Name="AntiVehicle_No_Structures">
+		<Attack_Priorities>
+			Vehicle, 1.0,	LandHero, 1.5,	TacticalStructure, 2.0
+		</Attack_Priorities>
+		<Category_Exclusions>
+			Wall, Structure, Air
+		</Category_Exclusions>
+	</Priority_Set>
+
+	<Priority_Set Name="AvoidAntiInfantryTurrets">
+		<Attack_Priorities>
+			LandHero, 0.5,	Infantry, 1.0,		Turret, 2.0,		Vehicle, 3.0,
+		</Attack_Priorities>
+		<Category_Exclusions>
+			Wall, Structure, Air
+		</Category_Exclusions>
+		<Unit_Exclusions>
+			Empire_Anti_Infantry_Turret, Rebel_Anti_Infantry_Turret, Pirate_Anti_Infantry_Turret
+		</Unit_Exclusions>
+	</Priority_Set>
+
+	<Priority_Set Name="Infantry_Attack_Move">
+		<Attack_Priorities>
+			LandHero, 0.5,	Infantry, 1.0
+		</Attack_Priorities>
+		<Category_Exclusions>
+			Wall, Air
+		</Category_Exclusions>
+		<Unit_Exclusions>
+			Empire_Anti_Infantry_Turret, Rebel_Anti_Infantry_Turret, Pirate_Anti_Infantry_Turret
+		</Unit_Exclusions>
+	</Priority_Set>
+
+	<Priority_Set Name="RocketInfantry_Attack_Move">
+		<Attack_Priorities>
+			Vehicle, 1.0,	LandHero, 1.5,	Turret, 2.0
+		</Attack_Priorities>
+		<Category_Exclusions>
+			Wall
+		</Category_Exclusions>
+	</Priority_Set>
+
+	<Priority_Set Name="Infiltrator_Attack_Move">
+		<Attack_Priorities>
+			Vehicle, 1.0,	LandHero, 1.5,	Turret, 2.0
+		</Attack_Priorities>
+		<Category_Exclusions>
+			Wall, Air
+		</Category_Exclusions>
+	</Priority_Set>
+
+	<!-- TODO: prioritize walkers 1.0, artillery 2.0, vehicle, 3.0 -->
+	<Priority_Set Name="Speeder_Attack_Move">
+		<Attack_Priorities>
+			LandHero, 0.5,	Vehicle, 1.0,
+		</Attack_Priorities>
+		<Category_Exclusions>
+			Wall
+		</Category_Exclusions>
+		<Unit_Exclusions>
+			AT_AA_Walker
+		</Unit_Exclusions>
+	</Priority_Set>
+
+	<!-- TODO: prioritize artillery, 1.0, tanks 2.0, vehicle 3.0 -->
+	<Priority_Set Name="Walker_Attack_Move">
+		<Attack_Priorities>
+			LandHero, 0.5,	Vehicle, 1.0,
+		</Attack_Priorities>
+		<Category_Exclusions>
+			Wall
+		</Category_Exclusions>
+	</Priority_Set>
+
+	<!-- TODO: prioritize artillery, 1.0, tanks 2.0, vehicle 3.0 -->
+	<Priority_Set Name="Tank_Attack_Move">
+		<Attack_Priorities>
+			LandHero, 0.5,	Vehicle, 1.0,	Turret, 1.0
+		</Attack_Priorities>
+		<Category_Exclusions>
+			Wall, Air
+		</Category_Exclusions>
+	</Priority_Set>
+
+	<Priority_Set Name="Mauler_Attack_Move">
+		<Attack_Priorities>
+			LandHero, 0.5,	Infantry, 1.0,	Vehicle, 2.0
+		</Attack_Priorities>
+		<Category_Exclusions>
+			Wall, Air
+		</Category_Exclusions>
+	</Priority_Set>
+
+	<Priority_Set Name="Artillery_Attack_Move">
+		<Attack_Priorities>
+			LandHero, 0.5,	Turret, 1.0,	Vehicle, 1.0
+		</Attack_Priorities>
+		<Category_Exclusions>
+			Wall, Air
+		</Category_Exclusions>
+	</Priority_Set>
+
+	<!-- TODO: prioritize artillery, 1.0
+	<Priority_Set Name="AntiArtillery">
+		<Attack_Priorities>
+			Vehicle, 1.0,
+		</Attack_Priorities>
+		<Category_Exclusions>
+			Wall, Air, Vehicle, Infantry
+		</Category_Exclusions>
+	</Priority_Set>
+	-->
+
+</Targeting_Priority_Sets>

@@ -1,0 +1,373 @@
+<?xml version="1.0" ?>
+
+<Goals>
+
+	<Intervention_Upgrade_Space_Station>
+		<AIGoalApplicationFlags>Friendly</AIGoalApplicationFlags>
+		<GameMode>Galactic</GameMode>
+		<Category>Interventions</Category>
+		<Reachability>Any</Reachability>
+		<Time_Limit>-1</Time_Limit>
+		<Global_Exclusions>
+			Intervention_Upgrade_Space_Station,
+		</Global_Exclusions>	
+	</Intervention_Upgrade_Space_Station>
+	
+	<Intervention_Build_Space_Units>
+		<AIGoalApplicationFlags>Global</AIGoalApplicationFlags>
+		<GameMode>Galactic</GameMode>
+		<Category>Interventions</Category>
+		<Reachability>Any</Reachability>
+		<Time_Limit>-1</Time_Limit>
+		<Global_Exclusions>
+			Intervention_Build_Space_Units
+			Intervention_Build_Land_Units,
+		</Global_Exclusions>	
+	</Intervention_Build_Space_Units>
+	
+	<Intervention_Build_Land_Units>
+		<AIGoalApplicationFlags>Global</AIGoalApplicationFlags>
+		<GameMode>Galactic</GameMode>
+		<Category>Interventions</Category>
+		<Reachability>Any</Reachability>
+		<Time_Limit>-1</Time_Limit>
+		<Global_Exclusions>
+			Intervention_Build_Space_Units
+			Intervention_Build_Land_Units,
+		</Global_Exclusions>		
+	</Intervention_Build_Land_Units>	
+	
+	<Intervention_Build_Light_Vehicle_Factories>
+		<AIGoalApplicationFlags>Global</AIGoalApplicationFlags>
+		<GameMode>Galactic</GameMode>
+		<Category>Interventions</Category>
+		<Reachability>Any</Reachability>
+		<Time_Limit>-1</Time_Limit>
+		<Global_Exclusions>
+			Intervention_Build_Light_Vehicle_Factories,
+			Intervention_Build_Heavy_Vehicle_Factories,
+			Intervention_Build_Ion_Cannons,
+		</Global_Exclusions>	
+	</Intervention_Build_Light_Vehicle_Factories>
+	
+	<Intervention_Build_Heavy_Vehicle_Factories>
+		<AIGoalApplicationFlags>Global</AIGoalApplicationFlags>
+		<GameMode>Galactic</GameMode>
+		<Category>Interventions</Category>
+		<Reachability>Any</Reachability>
+		<Time_Limit>-1</Time_Limit>
+		<Global_Exclusions>
+			Intervention_Build_Light_Vehicle_Factories,
+			Intervention_Build_Heavy_Vehicle_Factories,
+			Intervention_Build_Ion_Cannons,
+		</Global_Exclusions>	
+	</Intervention_Build_Heavy_Vehicle_Factories>	
+	
+	<Intervention_Conquer_Pirate_Planet>
+		<AIGoalApplicationFlags>Enemy</AIGoalApplicationFlags>
+		<GameMode>Galactic</GameMode>
+		<Category>Interventions</Category>
+		<Reachability>Enemy_Destination</Reachability>
+		<Time_Limit>-1</Time_Limit>
+		<Global_Exclusions>
+			Intervention_Conquer_Pirate_Planet,
+			Intervention_Conquer_Enemy_Planet,
+			Intervention_Planet_Windfall,
+			Intervention_Indigenous_Revolt
+		</Global_Exclusions>
+		<Is_Like>
+			Intervention_Scout
+		</Is_Like>					
+	</Intervention_Conquer_Pirate_Planet>
+	
+	<Intervention_Build_Ion_Cannons>
+		<AIGoalApplicationFlags>Global</AIGoalApplicationFlags>
+		<GameMode>Galactic</GameMode>
+		<Category>Interventions</Category>
+		<Reachability>Any</Reachability>
+		<Time_Limit>-1</Time_Limit>
+		<Global_Exclusions>
+			Intervention_Build_Light_Vehicle_Factories,
+			Intervention_Build_Heavy_Vehicle_Factories,
+			Intervention_Build_Ion_Cannons,
+		</Global_Exclusions>	
+	</Intervention_Build_Ion_Cannons>
+	
+	<Intervention_Accumulate_Credits>
+		<AIGoalApplicationFlags>Global</AIGoalApplicationFlags>
+		<GameMode>Galactic</GameMode>
+		<Category>Interventions</Category>
+		<Reachability>Any</Reachability>
+		<Time_Limit>-1</Time_Limit>
+		<Global_Exclusions>
+			Intervention_Accumulate_Credits,
+		</Global_Exclusions>		
+	</Intervention_Accumulate_Credits>
+	
+	<Intervention_Scout>
+		<AIGoalApplicationFlags>Enemy</AIGoalApplicationFlags>
+		<GameMode>Galactic</GameMode>
+		<Category>Interventions</Category>
+		<Reachability>Any</Reachability>
+		<Time_Limit>-1</Time_Limit>
+		<Global_Exclusions>
+			Intervention_Scout
+		</Global_Exclusions>
+		<Is_Like>
+			Intervention_Conquer_Enemy_Planet, 
+			Intervention_Conquer_Pirate_Planet
+		</Is_Like>	
+		<Tracking_Duration>-1</Tracking_Duration>	
+		<Per_Failure_Desire_Adjust>-1.0</Per_Failure_Desire_Adjust>
+	</Intervention_Scout>
+	
+	<Intervention_Conquer_Enemy_Planet>
+		<AIGoalApplicationFlags>Enemy</AIGoalApplicationFlags>
+		<GameMode>Galactic</GameMode>
+		<Category>Interventions</Category>
+		<Reachability>Enemy_Destination</Reachability>
+		<Time_Limit>-1</Time_Limit>
+		<Global_Exclusions>
+			Intervention_Conquer_Pirate_Planet,
+			Intervention_Conquer_Enemy_Planet,
+			Intervention_Planet_Windfall,
+			Intervention_Indigenous_Revolt
+		</Global_Exclusions>	
+		<Is_Like>
+			Intervention_Scout
+		</Is_Like>		
+	</Intervention_Conquer_Enemy_Planet>
+	
+	<Intervention_Credit_Windfall>
+		<AIGoalApplicationFlags>Global</AIGoalApplicationFlags>
+		<GameMode>Galactic</GameMode>
+		<Category>Interventions</Category>
+		<Reachability>Any</Reachability>
+		<Time_Limit>-1</Time_Limit>
+		<Global_Exclusions>
+			Intervention_Credit_Windfall,
+			Intervention_Land_Unit_Windfall,
+			Intervention_Space_Unit_Windfall,
+			Intervention_Planet_Windfall,
+			Intervention_Tech_Windfall
+		</Global_Exclusions>
+	</Intervention_Credit_Windfall>
+	
+	<Intervention_Land_Unit_Windfall>
+		<AIGoalApplicationFlags>Global</AIGoalApplicationFlags>
+		<GameMode>Galactic</GameMode>
+		<Category>Interventions</Category>
+		<Reachability>Any</Reachability>
+		<Time_Limit>-1</Time_Limit>
+		<Global_Exclusions>
+			Intervention_Credit_Windfall,
+			Intervention_Land_Unit_Windfall,
+			Intervention_Space_Unit_Windfall,
+			Intervention_Planet_Windfall,
+			Intervention_Tech_Windfall
+		</Global_Exclusions>
+	</Intervention_Land_Unit_Windfall>
+	
+	<Intervention_Space_Unit_Windfall>
+		<AIGoalApplicationFlags>Global</AIGoalApplicationFlags>
+		<GameMode>Galactic</GameMode>
+		<Category>Interventions</Category>
+		<Reachability>Any</Reachability>
+		<Time_Limit>-1</Time_Limit>
+		<Global_Exclusions>
+			Intervention_Credit_Windfall,
+			Intervention_Land_Unit_Windfall,
+			Intervention_Space_Unit_Windfall,
+			Intervention_Planet_Windfall,
+			Intervention_Tech_Windfall
+		</Global_Exclusions>
+	</Intervention_Space_Unit_Windfall>
+	
+	<Intervention_Planet_Windfall>
+		<AIGoalApplicationFlags>Enemy</AIGoalApplicationFlags>
+		<GameMode>Galactic</GameMode>
+		<Category>Interventions</Category>
+		<Reachability>Enemy_Destination</Reachability>
+		<Time_Limit>-1</Time_Limit>
+		<Global_Exclusions>
+			Intervention_Credit_Windfall,
+			Intervention_Land_Unit_Windfall,
+			Intervention_Space_Unit_Windfall,
+			Intervention_Planet_Windfall,
+			Intervention_Conquer_Enemy_Planet,
+			Intervention_Tech_Windfall
+		</Global_Exclusions>
+	</Intervention_Planet_Windfall>
+	
+	<Intervention_Tech_Windfall>
+		<AIGoalApplicationFlags>Global</AIGoalApplicationFlags>
+		<GameMode>Galactic</GameMode>
+		<Category>Interventions</Category>
+		<Reachability>Any</Reachability>
+		<Time_Limit>-1</Time_Limit>
+		<Global_Exclusions>
+			Intervention_Credit_Windfall,
+			Intervention_Land_Unit_Windfall,
+			Intervention_Space_Unit_Windfall,
+			Intervention_Planet_Windfall,
+			Intervention_Tech_Windfall,
+		</Global_Exclusions>		
+	</Intervention_Tech_Windfall>
+	
+	<Intervention_Indigenous_Revolt>
+		<AIGoalApplicationFlags>Enemy</AIGoalApplicationFlags>
+		<GameMode>Galactic</GameMode>
+		<Category>Interventions</Category>
+		<Reachability>Enemy_Destination</Reachability>
+		<Time_Limit>-1</Time_Limit>
+		<Global_Exclusions>
+			Intervention_Conquer_Pirate_Planet,
+			Intervention_Conquer_Enemy_Planet,
+			Intervention_Planet_Windfall,
+			Intervention_Indigenous_Revolt
+		</Global_Exclusions>		
+	</Intervention_Indigenous_Revolt>
+	
+	<Intervention_Hunt_Capital_Ships>
+		<AIGoalApplicationFlags>Global</AIGoalApplicationFlags>
+		<GameMode>Galactic</GameMode>
+		<Category>Interventions</Category>
+		<Reachability>Any</Reachability>
+		<Time_Limit>-1</Time_Limit>
+	</Intervention_Hunt_Capital_Ships>
+	
+	<Intervention_Rebel_Smuggler>
+		<AIGoalApplicationFlags>Enemy</AIGoalApplicationFlags>
+		<GameMode>Galactic</GameMode>
+		<Category>Interventions</Category>
+		<Reachability>Enemy_Destination</Reachability>
+		<Time_Limit>-1</Time_Limit>
+		<Global_Exclusions>Intervention_Rebel_Smuggler</Global_Exclusions>
+	</Intervention_Rebel_Smuggler>
+	
+	<Intervention_Pirate_Ambush>
+		<AIGoalApplicationFlags>Global</AIGoalApplicationFlags>
+		<GameMode>Galactic</GameMode>
+		<Category>Interventions</Category>
+		<Reachability>Any</Reachability>
+		<Time_Limit>-1</Time_Limit>
+	</Intervention_Pirate_Ambush>
+	
+	<Intervention_Vader_Favor>
+		<AIGoalApplicationFlags>Enemy</AIGoalApplicationFlags>
+		<GameMode>Galactic</GameMode>
+		<Category>Interventions</Category>
+		<Reachability>Enemy_Destination</Reachability>
+		<Time_Limit>-1</Time_Limit>
+		<Global_Exclusions>Intervention_Vader_Favor</Global_Exclusions>
+	</Intervention_Vader_Favor>
+	
+	<Intervention_Imperial_Traitor>
+		<AIGoalApplicationFlags>Enemy</AIGoalApplicationFlags>
+		<GameMode>Galactic</GameMode>
+		<Category>Interventions</Category>
+		<Reachability>Any</Reachability>
+		<Time_Limit>-1</Time_Limit>
+		<Global_Exclusions>Intervention_Imperial_Traitor</Global_Exclusions>
+	</Intervention_Imperial_Traitor>
+	
+	<Intervention_Rebel_Sabotage>
+		<AIGoalApplicationFlags>Enemy</AIGoalApplicationFlags>
+		<GameMode>Galactic</GameMode>
+		<Category>Interventions</Category>
+		<Reachability>Any</Reachability>
+		<Time_Limit>-1</Time_Limit>
+		<Global_Exclusions>Intervention_Rebel_Sabotage</Global_Exclusions>
+	</Intervention_Rebel_Sabotage>
+	
+	<Intervention_Rebel_Revolt>
+		<AIGoalApplicationFlags>Friendly</AIGoalApplicationFlags>
+		<GameMode>Galactic</GameMode>
+		<Category>Interventions</Category>
+		<Reachability>Any</Reachability>
+		<Time_Limit>-1</Time_Limit>
+		<Global_Exclusions>Intervention_Rebel_Revolt</Global_Exclusions>
+	</Intervention_Rebel_Revolt>
+	
+	<Intervention_Pirate_Defection>
+		<AIGoalApplicationFlags>Friendly</AIGoalApplicationFlags>
+		<GameMode>Galactic</GameMode>
+		<Category>Interventions</Category>
+		<Reachability>Any</Reachability>
+		<Time_Limit>-1</Time_Limit>
+		<Global_Exclusions>Intervention_Pirate_Defection</Global_Exclusions>
+	</Intervention_Pirate_Defection>
+	
+	<Intervention_Refugee_Escort>
+		<AIGoalApplicationFlags>Enemy</AIGoalApplicationFlags>
+		<GameMode>Galactic</GameMode>
+		<Category>Interventions</Category>
+		<Reachability>Any</Reachability>
+		<Time_Limit>-1</Time_Limit>
+		<Global_Exclusions>Intervention_Refugee_Escort</Global_Exclusions>
+	</Intervention_Refugee_Escort>
+	
+	<Intervention_Confront_Boba>
+		<AIGoalApplicationFlags>Enemy</AIGoalApplicationFlags>
+		<GameMode>Galactic</GameMode>
+		<Category>Interventions</Category>
+		<Reachability>Enemy_Destination</Reachability>
+		<Time_Limit>-1</Time_Limit>
+		<Global_Exclusions>Intervention_Confront_Boba</Global_Exclusions>
+	</Intervention_Confront_Boba>
+	
+	<Intervention_Pirate_Rescue>
+		<AIGoalApplicationFlags>Enemy</AIGoalApplicationFlags>
+		<GameMode>Galactic</GameMode>
+		<Category>Interventions</Category>
+		<Reachability>Enemy_Destination</Reachability>
+		<Time_Limit>-1</Time_Limit>
+		<Global_Exclusions>Intervention_Pirate_Rescue</Global_Exclusions>
+	</Intervention_Pirate_Rescue>
+	
+	<Intervention_Pirate_Enlightenment>
+		<AIGoalApplicationFlags>Enemy</AIGoalApplicationFlags>
+		<GameMode>Galactic</GameMode>
+		<Category>Interventions</Category>
+		<Reachability>Enemy_Destination</Reachability>
+		<Time_Limit>-1</Time_Limit>
+		<Global_Exclusions>Intervention_Pirate_Enlightenment</Global_Exclusions>
+	</Intervention_Pirate_Enlightenment>
+	
+	<Intervention_Pirate_Enlightenment_b>
+		<AIGoalApplicationFlags>Enemy</AIGoalApplicationFlags>
+		<GameMode>Galactic</GameMode>
+		<Category>Interventions</Category>
+		<Reachability>Enemy_Destination</Reachability>
+		<Time_Limit>-1</Time_Limit>
+		<Global_Exclusions>Intervention_Pirate_Enlightenment_b</Global_Exclusions>
+	</Intervention_Pirate_Enlightenment_b>
+	
+	<Intervention_Show_of_Strength>
+		<AIGoalApplicationFlags>Enemy</AIGoalApplicationFlags>
+		<GameMode>Galactic</GameMode>
+		<Category>Interventions</Category>
+		<Reachability>Any</Reachability>
+		<Time_Limit>-1</Time_Limit>
+		<Global_Exclusions>Intervention_Show_of_Strength</Global_Exclusions>
+	</Intervention_Show_of_Strength>
+	
+	<Intervention_Fleet_Rescue>
+		<AIGoalApplicationFlags>Enemy</AIGoalApplicationFlags>
+		<GameMode>Galactic</GameMode>
+		<Category>Interventions</Category>
+		<Reachability>Enemy_Destination</Reachability>
+		<Time_Limit>-1</Time_Limit>
+		<Global_Exclusions>Intervention_Fleet_Rescue</Global_Exclusions>
+	</Intervention_Fleet_Rescue>
+	
+	<Intervention_Empire_Oppression>
+		<AIGoalApplicationFlags>Enemy</AIGoalApplicationFlags>
+		<GameMode>Galactic</GameMode>
+		<Category>Interventions</Category>
+		<Reachability>Any</Reachability>
+		<Time_Limit>-1</Time_Limit>
+		<Global_Exclusions>Intervention_Empire_Oppression</Global_Exclusions>
+	</Intervention_Empire_Oppression>
+	
+</Goals>

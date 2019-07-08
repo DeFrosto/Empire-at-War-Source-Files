@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<MiscObjects>
+
+	<MiscObject Name="Demolition_Bomb">
+		<Text_ID>TEXT_OBJECT_BOMB</Text_ID>
+		<Land_Model_Name>w_smallbomb.alo</Land_Model_Name>
+		<LandBehavior>BOMB</LandBehavior>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Death_Explosions>Small_Explosion_Land</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Unit_Katarn_Building_Bomb_SFX</Death_SFXEvent_Start_Die>
+   </MiscObject>
+
+
+
+
+	<!--
+	Oksana [5/30/2005]:
+	Currect system can't target a position, only an object, so we
+	setup this dummy invisible object so that barrage mode can target it without having to rewrite entire hardpoint,
+	team and weapon targeting systems. -->
+	<MiscObject Name="Dummy_Barrage_Target">
+		<Text_ID></Text_ID>
+		<Model_Name>w_smallbomb.alo</Model_Name>
+		<LandBehavior>MARKER</LandBehavior>
+		<Scale_Factor>100.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<CategoryMask> Corvette  </CategoryMask>
+		
+		
+   </MiscObject>
+
+   <MiscObject Name="Credit_Power_Up">
+		<Text_ID></Text_ID>
+		<Land_Model_Name>W_PICK_UP_COINS.ALO</Land_Model_Name>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Is_Decoration>No</Is_Decoration>
+		<Scale_Factor>1.0</Scale_Factor>
+ 		<Is_Visible_On_Radar>True</Is_Visible_On_Radar>
+ 		<Lua_Script>CreditPowerUp</Lua_Script>
+  </MiscObject>
+  
+  <MiscObject Name="Tech_Power_Up">
+		<Text_ID></Text_ID>
+		<Land_Model_Name>W_FLAG_MARKER_RED.ALO</Land_Model_Name>
+		<Is_Decoration>No</Is_Decoration>
+		<Scale_Factor>1.0</Scale_Factor>
+ 		<Is_Visible_On_Radar>True</Is_Visible_On_Radar>
+ 		<Lua_Script>TechPowerUp</Lua_Script>
+  </MiscObject>
+  
+  
+	<MiscObject Name="R_Multiplayer_Beacon">
+		<Affiliation>Rebel</Affiliation>
+		<Text_ID>TEXT_MULTIPLAYER_BEACON</Text_ID>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_MULTIPLAYER_BEACON  </Encyclopedia_Text>
+		<Behavior>MULTIPLAYER_BEACON, IDLE</Behavior>
+		<Land_Model_Name>i_multiplayer_beacon.alo</Land_Model_Name>
+		<Space_Model_Name>i_multiplayer_beacon.alo</Space_Model_Name>
+		<Is_Visible_On_Radar>True</Is_Visible_On_Radar>
+		<Radar_Icon_Name>i_icon_minimap_ping.tga</Radar_Icon_Name>
+		<Radar_Icon_Size>0.08  0.08</Radar_Icon_Size>
+		<Tactical_Health> 100 </Tactical_Health>
+		<Beacon_Radar_Map_Event_Name> Default_Beacon_Placement </Beacon_Radar_Map_Event_Name>
+		<Beacon_Lifetime_In_Secs> 10.0 </Beacon_Lifetime_In_Secs>
+		<SFXEvent_Beacon_Placed>GUI_Toggle_Lure_On</SFXEvent_Beacon_Placed>
+	</MiscObject>
+	
+	<MiscObject Name="E_Multiplayer_Beacon">
+		<Variant_Of_Existing_Type>R_Multiplayer_Beacon</Variant_Of_Existing_Type>
+	</MiscObject>
+   
+</MiscObjects>

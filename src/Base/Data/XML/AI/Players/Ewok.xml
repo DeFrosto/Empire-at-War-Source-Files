@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!-- A file that defines the static data for an AI player type.  -->
+<AIPlayerType>
+
+	<Name>Ewok</Name>
+
+	<Personality>
+		<Focus> .7 </Focus>
+		<Aggressiveness> .8 </Aggressiveness>
+	</Personality>
+
+	<SpaceFreeStoreScript>GenericFreeStore</SpaceFreeStoreScript>
+	<LandFreeStoreScript>GenericFreeStore</LandFreeStoreScript>
+
+	<GoalProposalFunctionSets>
+		EwokSet
+	</GoalProposalFunctionSets>
+    <Templates>
+        <Space>
+            Test_Space
+        </Space>
+        <Land>
+            Ewok_Land
+        </Land>
+        <Galactic>
+            None_Template
+        </Galactic>
+    </Templates>
+	
+</AIPlayerType>
+

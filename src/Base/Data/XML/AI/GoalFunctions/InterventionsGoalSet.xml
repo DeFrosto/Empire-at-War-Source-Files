@@ -1,0 +1,165 @@
+<?xml version="1.0" ?>
+
+<FunctionSet>
+
+	<Intervention_Upgrade_Space_Station>
+		<Goal>Intervention_Upgrade_Space_Station</Goal>
+		<Function>Intervention_Trigger_Upgrade_Space_Station</Function>
+	</Intervention_Upgrade_Space_Station>
+
+	<Intervention_Build_Ion_Cannons>
+		<Goal>Intervention_Build_Ion_Cannons</Goal>
+		<Function>Intervention_Trigger_Build_Ion_Cannons</Function>
+	</Intervention_Build_Ion_Cannons>
+
+	<Intervention_Build_Light_Vehicle_Factories>
+		<Goal>Intervention_Build_Light_Vehicle_Factories</Goal>
+		<Function>Intervention_Trigger_Build_Light_Vehicle_Factories</Function>
+	</Intervention_Build_Light_Vehicle_Factories>
+
+	<Intervention_Build_Heavy_Vehicle_Factories>
+		<Goal>Intervention_Build_Heavy_Vehicle_Factories</Goal>
+		<Function>Intervention_Trigger_Build_Heavy_Vehicle_Factories</Function>
+	</Intervention_Build_Heavy_Vehicle_Factories>
+
+	<Intervention_Accumulate_Credits>
+		<Goal>Intervention_Accumulate_Credits</Goal>
+		<Function>Intervention_Trigger_Accumulate_Credits</Function>
+	</Intervention_Accumulate_Credits>
+	
+	<Intervention_Build_Space_Units>
+		<Goal>Intervention_Build_Space_Units</Goal>
+		<Function>Intervention_Trigger_Build_Space_Units</Function>
+	</Intervention_Build_Space_Units>
+
+	<Intervention_Build_Land_Units>
+		<Goal>Intervention_Build_Land_Units</Goal>
+		<Function>Intervention_Trigger_Build_Land_Units</Function>
+	</Intervention_Build_Land_Units>
+
+	<Intervention_Conquer_Pirate_Planet>
+		<Goal>Intervention_Conquer_Pirate_Planet</Goal>
+		<Function>Intervention_Trigger_Conquer_Pirate_Planet</Function>
+	</Intervention_Conquer_Pirate_Planet>
+
+	<Intervention_Scout>
+		<Goal>Intervention_Scout</Goal>
+		<Function>Intervention_Trigger_Scout</Function>
+	</Intervention_Scout>
+
+	<Intervention_Conquer_Enemy_Planet>
+		<Goal>Intervention_Conquer_Enemy_Planet</Goal>
+		<Function>Intervention_Trigger_Conquer_Enemy_Planet</Function>
+	</Intervention_Conquer_Enemy_Planet>
+
+	<Intervention_Credit_Windfall>
+		<Goal>Intervention_Credit_Windfall</Goal>
+		<Function>Intervention_Trigger_Credit_Windfall</Function>
+	</Intervention_Credit_Windfall>
+
+	<Intervention_Land_Unit_Windfall>
+		<Goal>Intervention_Land_Unit_Windfall</Goal>
+		<Function>Intervention_Trigger_Land_Unit_Windfall</Function>
+	</Intervention_Land_Unit_Windfall>
+	
+	<Intervention_Space_Unit_Windfall>
+		<Goal>Intervention_Space_Unit_Windfall</Goal>
+		<Function>Intervention_Trigger_Space_Unit_Windfall</Function>
+	</Intervention_Space_Unit_Windfall>
+
+	<Intervention_Planet_Windfall>
+		<Goal>Intervention_Planet_Windfall</Goal>
+		<Function>Intervention_Trigger_Planet_Windfall</Function>
+	</Intervention_Planet_Windfall>
+
+	<Intervention_Tech_Windfall>
+		<Goal>Intervention_Tech_Windfall</Goal>
+		<Function>Intervention_Trigger_Tech_Windfall</Function>
+	</Intervention_Tech_Windfall>
+
+	<Intervention_Indigenous_Revolt>
+		<Goal>Intervention_Indigenous_Revolt</Goal>
+		<Function>Intervention_Trigger_Indigenous_Revolt</Function>
+	</Intervention_Indigenous_Revolt>
+
+	<Intervention_Hunt_Capital_Ships>
+		<Goal>Intervention_Hunt_Capital_Ships</Goal>
+		<Function>Intervention_Trigger_Hunt_Capital_Ships</Function>
+	</Intervention_Hunt_Capital_Ships>
+
+	<Intervention_Rebel_Smuggler>
+		<Goal>Intervention_Rebel_Smuggler</Goal>
+		<Function>Intervention_Trigger_Rebel_Smuggler</Function>
+	</Intervention_Rebel_Smuggler>
+	
+	<Intervention_Pirate_Ambush>
+		<Goal>Intervention_Pirate_Ambush</Goal>
+		<Function>Intervention_Trigger_Pirate_Ambush</Function>
+	</Intervention_Pirate_Ambush>
+	
+	<Intervention_Vader_Favor>
+		<Goal>Intervention_Vader_Favor</Goal>
+		<Function>Intervention_Trigger_Vader_Favor</Function>
+	</Intervention_Vader_Favor>
+	
+	<Intervention_Imperial_Traitor>
+		<Goal>Intervention_Imperial_Traitor</Goal>
+		<Function>Intervention_Trigger_Imperial_Traitor</Function>
+	</Intervention_Imperial_Traitor>
+	
+	<Intervention_Rebel_Sabotage>
+		<Goal>Intervention_Rebel_Sabotage</Goal>
+		<Function>Intervention_Trigger_Rebel_Sabotage</Function>
+	</Intervention_Rebel_Sabotage>
+	
+	<Intervention_Rebel_Revolt>
+		<Goal>Intervention_Rebel_Revolt</Goal>
+		<Function>Intervention_Trigger_Rebel_Revolt</Function>
+	</Intervention_Rebel_Revolt>
+	
+	<Intervention_Pirate_Defection>
+		<Goal>Intervention_Pirate_Defection</Goal>
+		<Function>Intervention_Trigger_Pirate_Defection</Function>
+	</Intervention_Pirate_Defection>
+	
+	<Intervention_Refugee_Escort>
+		<Goal>Intervention_Refugee_Escort</Goal>
+		<Function>Intervention_Trigger_Refugee_Escort</Function>
+	</Intervention_Refugee_Escort>
+	
+	<Intervention_Confront_Boba>
+		<Goal>Intervention_Confront_Boba</Goal>
+		<Function>Intervention_Trigger_Confront_Boba</Function>
+	</Intervention_Confront_Boba>
+	
+	<Intervention_Pirate_Rescue>
+		<Goal>Intervention_Pirate_Rescue</Goal>
+		<Function>Intervention_Trigger_Pirate_Rescue</Function>
+	</Intervention_Pirate_Rescue>
+	
+	<Intervention_Pirate_Enlightenment>
+		<Goal>Intervention_Pirate_Enlightenment</Goal>
+		<Function>Intervention_Trigger_Pirate_Enlightenment</Function>
+	</Intervention_Pirate_Enlightenment>
+	
+	<Intervention_Pirate_Enlightenment_b>
+		<Goal>Intervention_Pirate_Enlightenment_b</Goal>
+		<Function>Intervention_Trigger_Pirate_Enlightenment_b</Function>
+	</Intervention_Pirate_Enlightenment_b>
+	
+	<Intervention_Show_of_Strength>
+		<Goal>Intervention_Show_of_Strength</Goal>
+		<Function>Intervention_Trigger_Show_of_Strength</Function>
+	</Intervention_Show_of_Strength>
+	
+	<Intervention_Fleet_Rescue>
+		<Goal>Intervention_Fleet_Rescue</Goal>
+		<Function>Intervention_Trigger_Fleet_Rescue</Function>
+	</Intervention_Fleet_Rescue>
+	
+	<Intervention_Empire_Oppression>
+		<Goal>Intervention_Empire_Oppression</Goal>
+		<Function>Intervention_Trigger_Empire_Oppression</Function>
+	</Intervention_Empire_Oppression>
+
+</FunctionSet>

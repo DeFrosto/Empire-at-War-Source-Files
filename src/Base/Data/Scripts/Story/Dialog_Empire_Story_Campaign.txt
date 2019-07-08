@@ -1,0 +1,386 @@
+
+[CHAPTER 0] 
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+TEXT TEXT_STORY_EMPIRE_ACT01_MISSION_TWO_38
+# Crush.  Kill.  Destroy.  
+
+NEWLINE 1
+
+TEXT TEXT_STORY_EMPIRE_ACT01_MISSION_TWO_39
+# The Rebels have captured Fondor.  
+# Send your forces there and crush their pitiful uprising.  
+# Teach those Rebels a lesson they won't soon forget.  
+
+NEWLINE 1
+
+TEXTCOLOR 109 247 255 255
+TEXT TEXT_STORY_EMPIRE_ACT01_MISSION_TWO_37
+# Task: Build a ground assault force and recapture Fondor.   
+
+
+
+[CHAPTER 1] 
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+TEXT TEXT_STORY_EMPIRE_ACT01_MISSION_THREE_28
+# Rooting out the Pirates  
+
+NEWLINE 1
+
+TEXT TEXT_STORY_EMPIRE_ACT01_MISSION_THREE_25
+# The transmission logs from Thyferra and Fondor have led the Empire to a potential pirate nest on Ilum.  
+# In order to retain the element of surprise, Lord Vader has ordered a probe droid dispatched to Ilum.    
+
+NEWLINE 1
+
+TEXTCOLOR 109 247 255 255
+TEXT TEXT_STORY_EMPIRE_ACT01_MISSION_THREE_26
+# Task: Build a probe droid at a system with a space station and send it to Ilum. 
+
+
+
+
+
+[CHAPTER 2]
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+TEXT TEXT_STORY_EMPIRE_ACT01_MISSION_THREE_29
+# The Pirate Menace
+
+NEWLINE 1
+
+TEXT TEXT_STORY_EMPIRE_ACT01_MISSION_THREE_31
+# Boba Fett has been hired for a hefty price to aid the Empire.  
+# He will scout the pirate defenses and neutralize their warning systems before the main fleet enters the area.    
+
+NEWLINE 1
+
+TEXTCOLOR 109 247 255 255
+TEXT TEXT_STORY_EMPIRE_ACT01_MISSION_THREE_32
+# Task: Build a fleet and escort Boba Fett from Coruscant to Ilum.
+
+
+
+
+
+
+
+
+[CHAPTER 3]
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+TEXT TEXT_STORY_EMPIRE_ACT01_MISSION_FOUR_00
+# Subjugating Geonosis  
+
+NEWLINE 1
+
+TEXT TEXT_STORY_EMPIRE_ACT01_MISSION_FOUR_02
+# Grand Moff Tarkin has assigned Darth Vader to acquire the resources of the planet Geonosis.  
+# To take full control of the planet, both space and land must be secured.  
+
+NEWLINE 1
+
+TEXTCOLOR 109 247 255 255
+TEXT TEXT_STORY_EMPIRE_ACT01_MISSION_FOUR_03
+# Task: Build a fleet and escort Darth Vader to Geonosis.  
+# You will need a significant number of vessels to successfully invade.
+
+
+
+
+
+[CHAPTER 4]
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+TEXT TEXT_STORY_EMPIRE_ACT02_MISSION_FOUR_00
+# Attack on Mon Calamari  
+
+NEWLINE 1
+
+TEXT TEXT_STORY_EMPIRE_ACT02_MISSION_FOUR_02
+# The Emperor believes that the fiercely-independent people of Mon Calamari 
+# will inevitably aid the Rebellion if they are allowed the choice.  
+# The planet must be subjugated to prevent their interference.    
+
+NEWLINE 1
+
+TEXTCOLOR 109 247 255 255
+TEXT TEXT_STORY_EMPIRE_ACT02_MISSION_FOUR_03
+# Task: Take control of Mon Calamari space.  A fleet of significant size is required.  
+# Ensure your controlled planets have adequate defenses while doing this.
+
+
+
+
+
+
+
+[CHAPTER 5] 
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+TEXT TEXT_STORY_EMPIRE_ACT02_MISSION_FIVE_00
+# Trouble on Kashyyyk  
+
+NEWLINE 1
+
+TEXT TEXT_STORY_EMPIRE_ACT02_MISSION_FIVE_02
+# A passionate rogue named Solo who had defected from the Empire some time ago has freed the Wookiees from their prisons.  
+# In his irrational defiance, he is attempting to get them off-planet.  
+# We cannot afford to lose the labor force we have established on Kashyyyk.  
+
+NEWLINE 1
+
+TEXTCOLOR 109 247 255 255
+TEXT TEXT_STORY_EMPIRE_ACT02_MISSION_FIVE_03
+# Task: Stop the Wookiee outbreak on Kashyyyk.  
+
+
+
+
+
+
+
+[CHAPTER 6] 
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+TEXT TEXT_STORY_EMPIRE_ACT02_MISSION_SIX_00
+# A New Weapon of War  
+
+NEWLINE 1
+
+TEXT TEXT_STORY_EMPIRE_ACT02_MISSION_SIX_02
+# With progress on the Death Star proceeding on schedule, the Emperor has turned his attention to other weapons.  
+# Colonel Maximilian Veers is set to demonstrate a new ground assault weapon - the All Terrain Armored Transport.  
+# The demonstration is to be held on Carida, home to an important Imperial training facility.   
+
+NEWLINE 1
+
+TEXTCOLOR 109 247 255 255
+TEXT TEXT_STORY_EMPIRE_ACT02_MISSION_SIX_03
+# Task: Escort Colonel Veers from Coruscant to Carida, and aid him in performing his demonstration of the AT-AT prototype. 
+
+
+
+
+
+
+
+
+
+[CHAPTER 7] 
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+TEXT TEXT_STORY_EMPIRE_ACT03_MISSION_SEVEN_00
+# The Rebel Fortress  
+
+NEWLINE 1
+
+TEXT TEXT_STORY_EMPIRE_ACT03_MISSION_SEVEN_01
+# The amount of firepower used in the Rebel assault on Carida leads Veers to believe that the Rebels must have a base somewhere close.  
+# The only likely point of origin is the planet Jabiim.  
+# If any Rebel presence is found there, the planet must be made an example of.    
+
+NEWLINE 1
+
+TEXTCOLOR 109 247 255 255
+TEXT TEXT_STORY_EMPIRE_ACT03_MISSION_SEVEN_02
+# Task: Take control of Jabiim. 
+
+
+
+
+
+
+
+
+
+[CHAPTER 8]
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+TEXT TEXT_STORY_EMPIRE_ACT03_MISSION_EIGHT_00
+# The Traitorous Moff  
+
+NEWLINE 1
+
+TEXT TEXT_STORY_EMPIRE_ACT03_MISSION_EIGHT_01
+# Sifting through data recovered in the wreckage of the Rebel base on Jabiim, 
+# Lord Vader finally finds intelligence he's been searching for - 
+# an Imperial Moff by the name of Kalast is the one giving classified information to the Rebels!  
+# This traitorous Moff has an estate on Atzerri; he must be found at once and interrogated before his execution for treason.  
+
+NEWLINE 1
+
+TEXTCOLOR 109 247 255 255
+TEXT TEXT_STORY_EMPIRE_ACT03_MISSION_EIGHT_02
+# Task: Build a fleet, locate and defeat Moff Kalast.  
+
+
+
+
+
+
+
+
+
+[CHAPTER 9]
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+TEXT TEXT_STORY_EMPIRE_ACT03_MISSION_NINE_00
+# An Engagement with the Emperor  
+
+NEWLINE 1
+
+TEXT TEXT_STORY_EMPIRE_ACT03_MISSION_NINE_01
+# Emperor Palpatine believes that the Bothan SpyNet is ultimately responsible for leaking 
+# Imperial information to the traitorous Moff Kalast and thus helping the Rebellion.  
+# As such, he has decided to deal with the situation himself.   
+
+NEWLINE 1
+
+TEXTCOLOR 109 247 255 255
+TEXT TEXT_STORY_EMPIRE_ACT03_MISSION_NINE_02
+# Task: Escort the Emperor to Bothawui and show the Bothans of the error of their ways.  
+
+
+
+
+
+[CHAPTER 10]
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+TEXT TEXT_STORY_EMPIRE_ACT04_MISSION_TEN_00
+# Capturing a Princess  
+
+NEWLINE 1
+
+TEXT TEXT_STORY_EMPIRE_ACT04_MISSION_TEN_01
+# Hoping to save his homeworld from suffering a similar fate to Bothawui, 
+# a scared Rebel deserter has revealed that an Alliance agent was going after the Death Star plans.  
+# By process of elimination the Empire believes the Princess is the only one who could have received this transmission.  
+# A small fleet has been dispatched to Tatooine to intercept her, but undiscovered pirate forces have suddenly attacked.  
+# Darth Vader must remove the pirates before the Princess enters the system, or she will escape.  
+
+NEWLINE 1
+
+TEXTCOLOR 109 247 255 255
+TEXT TEXT_STORY_EMPIRE_ACT04_MISSION_TEN_02
+# Task: Build a fleet and escort Darth Vader to intercept and capture Princess Leia at Tatooine.  
+# You will need to use the Tractor Beam from a Star Destroyer to catch her.  
+
+
+
+
+
+
+
+
+[CHAPTER 11] 
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+TEXT TEXT_STORY_EMPIRE_ACT04_MISSION_ELEVEN_00
+# The Destruction of Alderaan  
+
+NEWLINE 1
+
+TEXT TEXT_STORY_EMPIRE_ACT04_MISSION_ELEVEN_01
+# A suitable demonstration of the Death Star’s power is necessary.  
+# Princess Leia has unwillingly picked the target - her homeworld of Alderaan.  
+
+NEWLINE 1
+
+TEXTCOLOR 109 247 255 255
+TEXT TEXT_STORY_EMPIRE_ACT04_MISSION_ELEVEN_02
+# Task: Build a fleet and escort the Death Star to Alderaan.  
+
+
+
+
+
+
+[CHAPTER 12] 
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+TEXT TEXT_STORY_EMPIRE_ACT04_MISSION_TWELVE_00
+# End of the Rebellion  
+
+NEWLINE 1
+
+TEXT TEXT_STORY_EMPIRE_ACT04_MISSION_TWELVE_01
+# With the Death Star fully operational and tested on the planet Alderaan, 
+# the Rebel forces are attempting a desperate plan to engage the Empire before more systems suffer the same fate as Alderaan.  
+# Imperial Intelligence has identified five potential positions for their base.  
+# With these planets eliminated, the Rebellion will be no more.    
+
+NEWLINE 1
+
+TEXTCOLOR 109 247 255 255
+TEXT TEXT_STORY_EMPIRE_ACT04_MISSION_TWELVE_02
+# Task: Take full control of Alzoc III, Polus, Shola, Hoth and Yavin.  
+# Use the Death Star to eliminate difficult ground conflicts.  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         

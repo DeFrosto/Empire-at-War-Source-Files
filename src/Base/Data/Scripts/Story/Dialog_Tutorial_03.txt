@@ -1,0 +1,143 @@
+   
+[CHAPTER 0]
+
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+TEXT TEXT_STORY_TUTORIAL_EMPIRE_ACT03_03
+# Move attack fleet to Kashyyyk.
+
+NEWLINE 1
+
+TEXT TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_04
+# Hint: To attack the Rebel space forces located above Kashyyyk, drag the Imperial fleet from Nal Hutta to Kashyyyk.  
+# Moving a fleet into orbit above an enemy planet will initiate a space battle.
+
+# DIALOG TUTORIAL_EMPIRE_ACT03_04
+
+
+[CHAPTER 1]
+
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+TEXT TEXT_STORY_TUTORIAL_EMPIRE_ACT03_11
+# Follow the Imperial Officer. 
+
+NEWLINE 1
+
+TEXT TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_54
+# Hint: Select your units by left-clicking on them, and then issue a move command by right-clicking on the desired map location.  
+# Scroll the tactical display by moving your cursor to the edge of the screen, or by using the keyboard arrow keys.
+
+# DIALOG TUTORIAL_EMPIRE_ACT03_54
+
+
+[CHAPTER 2]
+
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+TEXT TEXT_STORY_TUTORIAL_EMPIRE_ACT03_14
+# Eliminate enemy fighter units. 
+
+NEWLINE 1
+
+TEXT TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_16
+# Hint: Use the Tartan Cruiser's Power to Weapons ability to increase the ship's rate of fire 
+# and destroy the fighter squadrons blocking your path.  
+# Select your Tartan Cruiser units, then click on the Power to Weapons ability icon, located on the command bar.
+
+# DIALOG TUTORIAL_EMPIRE_ACT03_16
+
+
+[CHAPTER 3]
+
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+TEXT TEXT_STORY_TUTORIAL_EMPIRE_ACT03_27
+# Eliminate the Frigate ship 
+
+NEWLINE 1
+
+TEXT TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_29
+# Hint: Destroy the hard-points on larger ships and space stations to disable critical parts like weapons, shields, and engines.
+
+# DIALOG TUTORIAL_EMPIRE_ACT03_29
+
+
+
+[CHAPTER 4]
+
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+TEXT TEXT_STORY_TUTORIAL_EMPIRE_ACT03_33
+# Deploy all reinforcement units. 
+
+NEWLINE 1
+
+TEXT TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_34
+# Hint: To bring reinforcements into a battle, select the reinforcement button, 
+# then drag and release the ships into space from the reinforcement window.  
+# Remember - reinforcements can only be released in open space, away from enemy structures and other hazards.
+
+# DIALOG TUTORIAL_EMPIRE_ACT03_34
+
+
+
+[CHAPTER 5]
+
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+TEXT TEXT_STORY_TUTORIAL_EMPIRE_ACT03_38
+# Eliminate the Rebel space station. 
+
+NEWLINE 1
+
+TEXT TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_40
+# Hint: Destroy the shield generator hard-point for enemy ships and space stations to disable their ability to regenerate shields.  
+# This will make them more vulnerable to attack, and easier to destroy.
+
+# DIALOG TUTORIAL_EMPIRE_ACT03_40
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

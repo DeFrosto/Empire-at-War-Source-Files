@@ -1,0 +1,664 @@
+<?xml version="1.0" ?>
+
+<Campaigns>
+
+
+	<!-- E3 DEMO VERSION -->
+	
+	<Campaign Name="Demo_May_E3_Original">
+
+		<Markup_Filename>Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
+		
+		<Campaign_Set> Final_E3_Demo </Campaign_Set>
+
+		<Text_ID> TEXT_CAMPAIGN_MAY_E3_DEMO </Text_ID>
+
+		<Camera_Shift_X> 40.0 </Camera_Shift_X>
+		<Camera_Shift_Y> 50.0 </Camera_Shift_Y>
+		<Camera_Distance> 1400.0 </Camera_Distance>
+
+		
+		<Locations> Galaxy_Core_Art_Model, Abregado_Rae, Alderaan, AlzocIII, Anaxes, Atzerri, Bespin, Bestine, Bonadan, Bothawui, Byss, Carida, Coruscant, Dagobah, Dantooine, Endor, Hoth, Kamino, Kashyyyk, Korriban, Kuat, Naboo, NalHutta, Ryloth, Sullust, Tatooine_E3, Thyferra, VergessoAsteroids, Yavin, Manaan, AetenII, Corellia, MonCalimari, Ilum, Corulag </Locations>
+
+		<Trade_Routes> Dantooine_Alderaan, NalHutta_Ryloth, Ryloth_VergessoAsteroids, Bespin_Dagobah, Thyferra_Abregado_Rae, Atzerri_Sullust, Endor_Thyferra, Coruscant_Alderaan </Trade_Routes>
+
+		<Rebel_Story_Name>   </Rebel_Story_Name>
+        <Empire_Story_Name> Story_Plots_E3Demo_Empire.XML </Empire_Story_Name>
+
+		<Home_Location> Rebel, Dantooine </Home_Location>
+		<Home_Location> Empire, Naboo </Home_Location>
+		<Starting_Active_Player> Empire </Starting_Active_Player>
+		<AI_Player_Control> Rebel, BasicRebelNoGalacticAI </AI_Player_Control>
+		<AI_Player_Control> Pirates, None </AI_Player_Control>
+
+
+		<!-- Rebel Starting Forces -->
+
+		<Starting_Credits> Rebel,  100000 </Starting_Credits>
+		<Starting_Tech_Level> Rebel, 5 </Starting_Tech_Level>
+
+		<Starting_Forces> Rebel, Dantooine, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, Dantooine, Power_Generator_R </Starting_Forces>	
+		<Starting_Forces> Rebel, Dantooine, R_Ground_Heavy_Vehicle_Factory </Starting_Forces>
+					
+					
+		<Starting_Forces> Rebel, Endor, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, Endor, Rebel_Tank_Buster_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Endor, Rebel_Tank_Buster_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Endor, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Endor, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Endor, Rebel_Heavy_Tank_Brigade </Starting_Forces>
+
+		<Starting_Forces> Rebel, Endor, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Endor, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Endor, Calamari_Cruiser </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Tatooine_E3, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Tatooine_E3, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Tatooine_E3, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Tatooine_E3, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Tatooine_E3, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Tatooine_E3, Calamari_Cruiser </Starting_Forces>
+		<Starting_Forces> Rebel, Tatooine_E3, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Tatooine_E3, Rebel_Infantry_Squad </Starting_Forces>
+		<!--Starting_Forces> Rebel, Tatooine_E3, Rebel_Heavy_Tank_Brigade </Starting_Forces-->
+		<Starting_Forces> Rebel, Tatooine_E3, R_Ground_Base_Shield </Starting_Forces>
+
+		<Starting_Forces> Rebel, Alderaan, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Alderaan, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Alderaan, Rebel_X-Wing_Squadron </Starting_Forces>		
+		<Starting_Forces> Rebel, Alderaan, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Alderaan, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Alderaan, Alliance_Assault_Frigate </Starting_Forces>		
+		<Starting_Forces> Rebel, Alderaan, Calamari_Cruiser </Starting_Forces>
+		<Starting_Forces> Rebel, Alderaan, Home_One </Starting_Forces>
+		<Starting_Forces> Rebel, Alderaan, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Alderaan, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Rebel, Alderaan, Corellian_Corvette </Starting_Forces>
+		
+				
+		<!-- Empire Starting Forces -->
+
+		<Starting_Credits> Empire,  100000 </Starting_Credits>
+		<Starting_Tech_Level> Empire, 3 </Starting_Tech_Level>
+
+		<Starting_Forces> Empire, Coruscant, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, E_Ground_Officer_Academy </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, E_Ground_Light_Vehicle_Factory </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Empire_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Empire_Orbital_Long_Range_Scanner </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Imperial_Stormtrooper_Squad </Starting_Forces>
+
+		<Starting_Forces> Empire, Coruscant, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Interdictor_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Victory_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Acclamator_Assault_Ship </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Star_Destroyer </Starting_Forces>
+
+		<Starting_Forces> Empire, Naboo, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Imperial_Stormtrooper_Squad </Starting_Forces>	
+		<Starting_Forces> Empire, Naboo, Imperial_Heavy_Scout_Squad </Starting_Forces>		
+		<Starting_Forces> Empire, Naboo, Imperial_Anti_Infantry_Brigade </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Imperial_Anti_Infantry_Brigade </Starting_Forces>		
+		<Starting_Forces> Empire, Naboo, Imperial_Armor_Group </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Imperial_Armor_Group </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Imperial_Heavy_Assault_Company </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, General_Veers_Team </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Empire_Star_Base_5 </Starting_Forces>
+		
+		<Starting_Forces> Empire, Naboo, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Tartan_Patrol_Cruiser </Starting_Forces>
+		<!--Starting_Forces> Empire, Naboo, Interdictor_Cruiser </Starting_Forces-->
+		<Starting_Forces> Empire, Naboo, Victory_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Acclamator_Assault_Ship </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Acclamator_Assault_Ship </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Star_Destroyer_E3 </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Star_Destroyer_E3 </Starting_Forces>
+		<!-- Pirate Starting Forces -->
+
+	</Campaign>
+
+
+
+	<!-- E3 DEMO VERSION ADVANCED VERSION -->
+	
+	<Campaign Name="Demo_May_E3_Advanced">
+
+		<Markup_Filename>Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
+		
+		<Campaign_Set> Final_E3_Demo_Advanced </Campaign_Set>
+
+		<Text_ID> TEXT_CAMPAIGN_MAY_E3_ADVANCED </Text_ID>
+
+		<Camera_Shift_X> 40.0 </Camera_Shift_X>
+		<Camera_Shift_Y> 50.0 </Camera_Shift_Y>
+		<Camera_Distance> 1400.0 </Camera_Distance>
+		
+		<Locations> Galaxy_Core_Art_Model, Abregado_Rae, Alderaan, AlzocIII, Anaxes, Atzerri, Bespin, Bestine, Bonadan, Bothawui, Byss, Carida, Coruscant, Dagobah, Dantooine, Endor, Hoth, Kamino, Kashyyyk, Korriban, Kuat, Naboo, NalHutta, Ryloth, Sullust, Tatooine_E3, Thyferra, VergessoAsteroids, Yavin </Locations>
+
+		<Trade_Routes> Dantooine_Alderaan, NalHutta_Ryloth, Ryloth_VergessoAsteroids, Bespin_Dagobah, Thyferra_Abregado_Rae, Atzerri_Sullust, Coruscant_Alderaan, Endor_Bestine </Trade_Routes>
+
+		<Rebel_Story_Name>   </Rebel_Story_Name>
+        <Empire_Story_Name> Story_Plots_E3Demo_Empire.XML </Empire_Story_Name>
+
+		<Home_Location> Rebel, Dantooine </Home_Location>
+		<Home_Location> Empire, Naboo </Home_Location>
+		<Starting_Active_Player> Empire </Starting_Active_Player>
+		<AI_Player_Control> Rebel, None </AI_Player_Control>
+		<AI_Player_Control> Pirates, None </AI_Player_Control>
+
+		<Starting_Credits> Rebel,  100000 </Starting_Credits>
+		<Starting_Tech_Level> Rebel, 5 </Starting_Tech_Level>
+
+		<Starting_Forces> Rebel, Dantooine, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, Dantooine, Power_Generator_R </Starting_Forces>	
+		<Starting_Forces> Rebel, Dantooine, R_Ground_Heavy_Vehicle_Factory </Starting_Forces>
+		<Starting_Forces> Rebel, Dantooine, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Dantooine, Rebel_Tank_Buster_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Dantooine, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Dantooine, Tani_Team </Starting_Forces>
+				
+		<Starting_Forces> Rebel, Endor, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Endor, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Endor, Rebel_Heavy_Tank_Brigade </Starting_Forces>
+		<Starting_Forces> Rebel, Endor, R_Ground_Base_Shield </Starting_Forces>
+		<Starting_Forces> Rebel, Endor, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, Endor, Rebel_Star_Base_3  </Starting_Forces>
+
+		<Starting_Forces> Rebel, Alderaan, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Alderaan, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Alderaan, Rebel_X-Wing_Squadron </Starting_Forces>		
+		<Starting_Forces> Rebel, Alderaan, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Alderaan, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Alderaan, Rebel_X-Wing_Squadron </Starting_Forces>		
+		<Starting_Forces> Rebel, Alderaan, Calamari_Cruiser </Starting_Forces>
+		<Starting_Forces> Rebel, Alderaan, Home_One </Starting_Forces>
+		<Starting_Forces> Rebel, Alderaan, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Alderaan, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Rebel, Alderaan, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Rebel, Alderaan, Rebel_Star_Base_3  </Starting_Forces>	
+		<Starting_Forces> Rebel, Alderaan, R_Ground_Barracks </Starting_Forces>
+
+		<Starting_Forces> Rebel, Tatooine_E3, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Tatooine_E3, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Tatooine_E3, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Tatooine_E3, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Tatooine_E3, Calamari_Cruiser </Starting_Forces>
+		<Starting_Forces> Rebel, Tatooine_E3, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Tatooine_E3, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Tatooine_E3, R_Ground_Base_Shield </Starting_Forces>
+
+		<Starting_Forces> Rebel, Korriban, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Korriban, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Korriban, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Korriban, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Korriban, Rebel_Star_Base_2  </Starting_Forces>
+		<Starting_Forces> Rebel, Korriban, R_Ground_Barracks </Starting_Forces>
+				
+		<Starting_Forces> Rebel, Kamino, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Kamino, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Kamino, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Kamino, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Kamino, Rebel_Tank_Buster_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Kamino, Rebel_Star_Base_1  </Starting_Forces>
+		<Starting_Forces> Rebel, Kamino, R_Ground_Barracks </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Atzerri, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Atzerri, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Atzerri, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Atzerri, Rebel_Infantry_Squad </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Hoth, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Hoth, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Hoth, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Hoth, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Hoth, Rebel_Tank_Buster_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Hoth, R_Ground_Barracks </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Bespin, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Bespin, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Bespin, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Bespin, Rebel_Infantry_Squad </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Bonadan, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Bonadan, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Bonadan, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Bonadan, Rebel_Infantry_Squad </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Thyferra, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Thyferra, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Thyferra, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Thyferra, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Thyferra, R_Ground_Barracks </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Dagobah, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Dagobah, Rebel_Infantry_Squad </Starting_Forces>	
+				
+		<Starting_Forces> Rebel, Yavin, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Yavin, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Yavin, Rebel_X-Wing_Squadron </Starting_Forces>		
+		<Starting_Forces> Rebel, Yavin, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Yavin, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Yavin, Alliance_Assault_Frigate </Starting_Forces>		
+		<Starting_Forces> Rebel, Yavin, Calamari_Cruiser </Starting_Forces>
+		<Starting_Forces> Rebel, Yavin, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Yavin, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Rebel, Yavin, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Rebel, Yavin, Rebel_Star_Base_3  </Starting_Forces>
+
+		<Starting_Credits> Empire,  100000 </Starting_Credits>
+		<Starting_Tech_Level> Empire, 3 </Starting_Tech_Level>
+
+		<Starting_Forces> Empire, Coruscant, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, E_Ground_Officer_Academy </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, E_Ground_Light_Vehicle_Factory </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Empire_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Empire_Orbital_Long_Range_Scanner </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Imperial_Stormtrooper_Squad </Starting_Forces>
+
+		<Starting_Forces> Empire, Coruscant, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Interdictor_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Victory_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Acclamator_Assault_Ship </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Star_Destroyer </Starting_Forces>
+
+		<Starting_Forces> Empire, Anaxes, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Anaxes, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Anaxes, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Anaxes, Imperial_Stormtrooper_Squad </Starting_Forces>
+
+		<Starting_Forces> Empire, Bestine, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Empire, Bestine, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Bestine, Imperial_Stormtrooper_Squad </Starting_Forces>	
+		<Starting_Forces> Empire, Bestine, Imperial_Heavy_Scout_Squad </Starting_Forces>		
+		<Starting_Forces> Empire, Bestine, Imperial_Anti_Infantry_Brigade </Starting_Forces>
+		<Starting_Forces> Empire, Bestine, Imperial_Anti_Infantry_Brigade </Starting_Forces>		
+		<Starting_Forces> Empire, Bestine, Imperial_Armor_Group </Starting_Forces>
+		<Starting_Forces> Empire, Bestine, Imperial_Armor_Group </Starting_Forces>
+		<Starting_Forces> Empire, Bestine, Imperial_Heavy_Assault_Company </Starting_Forces>
+		<Starting_Forces> Empire, Bestine, General_Veers_Team </Starting_Forces>
+		<Starting_Forces> Empire, Bestine, Darth_Team </Starting_Forces>
+		
+		<Starting_Forces> Empire, Bestine, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Bestine, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Bestine, Interdictor_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Bestine, Victory_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Bestine, Acclamator_Assault_Ship </Starting_Forces>
+		<Starting_Forces> Empire, Bestine, Star_Destroyer_E3 </Starting_Forces>
+		
+		<Starting_Forces> Empire, Kashyyyk, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Kashyyyk, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Kashyyyk, Interdictor_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Kashyyyk, Victory_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Kashyyyk, Acclamator_Assault_Ship </Starting_Forces>
+		<Starting_Forces> Empire, Kashyyyk, Star_Destroyer_E3 </Starting_Forces>
+		<Starting_Forces> Empire, Kashyyyk, Imperial_Stormtrooper_Squad </Starting_Forces>
+		
+		<Starting_Forces> Empire, Byss, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Byss, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Byss, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Byss, Imperial_Stormtrooper_Squad </Starting_Forces>
+
+		<Starting_Forces> Empire, Carida, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Carida, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Carida, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Carida, Imperial_Stormtrooper_Squad </Starting_Forces>
+
+		<Starting_Forces> Empire, AlzocIII, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, AlzocIII, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, AlzocIII, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Empire, AlzocIII, Imperial_Stormtrooper_Squad </Starting_Forces>
+
+		<Starting_Forces> Empire, Kuat, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Kuat, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Kuat, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Kuat, Imperial_Stormtrooper_Squad </Starting_Forces>
+
+		<Starting_Forces> Empire, Naboo, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Imperial_Stormtrooper_Squad </Starting_Forces>	
+		<Starting_Forces> Empire, Naboo, Imperial_Heavy_Scout_Squad </Starting_Forces>		
+		<Starting_Forces> Empire, Naboo, Imperial_Anti_Infantry_Brigade </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Imperial_Anti_Infantry_Brigade </Starting_Forces>		
+		<Starting_Forces> Empire, Naboo, Imperial_Armor_Group </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Imperial_Armor_Group </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Imperial_Heavy_Assault_Company </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, General_Veers_Team </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Empire_Star_Base_5 </Starting_Forces>
+		
+		<Starting_Forces> Empire, Naboo, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Tartan_Patrol_Cruiser </Starting_Forces>
+		<!--Starting_Forces> Empire, Naboo, Interdictor_Cruiser </Starting_Forces-->
+		<Starting_Forces> Empire, Naboo, Victory_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Acclamator_Assault_Ship </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Acclamator_Assault_Ship </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Star_Destroyer_E3 </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Star_Destroyer_E3 </Starting_Forces>
+
+		<Starting_Forces> Empire, Sullust, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Sullust, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Sullust, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Sullust, Imperial_Stormtrooper_Squad </Starting_Forces>
+
+		<!-- Pirate Starting Forces -->
+
+		<Starting_Forces> Pirates, VergessoAsteroids, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, VergessoAsteroids, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, VergessoAsteroids, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, VergessoAsteroids, IPV1_System_Patrol_Craft </Starting_Forces>
+				
+		<Starting_Forces> Pirates, Abregado_Rae, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Pirate_Command_Center </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Pirate_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Pirate_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Pirate_Skiff_Team </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Pirate_Skiff_Team </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, IPV1_System_Patrol_Craft </Starting_Forces>
+		
+		<Starting_Forces> Pirates, Bothawui, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Bothawui, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Bothawui, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Bothawui, Pirate_Command_Center </Starting_Forces>
+		<Starting_Forces> Pirates, Bothawui, Pirate_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Bothawui, Pirate_Soldier_Squad </Starting_Forces>
+
+		<Starting_Forces> Pirates, Ryloth, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Ryloth, Pirate_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Ryloth, Pirate_Command_Center </Starting_Forces>
+		
+		<Starting_Forces> Pirates, NalHutta, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, NalHutta, Pirate_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, NalHutta, Pirate_Command_Center </Starting_Forces>
+	</Campaign>
+
+
+
+	<!-- E3 DEMO HOT LOAD VERSION -->
+	
+	<Campaign Name="Demo_May_E3">
+
+		<Markup_Filename>Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
+		
+		<Campaign_Set> Final_E3_Demo_Hot_Load </Campaign_Set>
+
+		<Text_ID> TEXT_CAMPAIGN_MAY_E3_HOT_LOAD </Text_ID>
+
+		<Camera_Shift_X> 40.0 </Camera_Shift_X>
+		<Camera_Shift_Y> 50.0 </Camera_Shift_Y>
+		<Camera_Distance> 1400.0 </Camera_Distance>
+		
+		<Locations> Galaxy_Core_Art_Model, Abregado_Rae, Alderaan, AlzocIII, Anaxes, Atzerri, Bespin, Bestine, Bonadan, Bothawui, Byss, Carida, Coruscant, Dagobah, Dantooine, Endor, Hoth, Kamino, Kashyyyk, Korriban, Kuat, Naboo, NalHutta, Ryloth, Sullust, Tatooine_E3, Thyferra, VergessoAsteroids, Yavin </Locations>
+
+		<Trade_Routes> Dantooine_Alderaan, NalHutta_Ryloth, Ryloth_VergessoAsteroids, Bespin_Dagobah, Thyferra_Abregado_Rae, Atzerri_Sullust, Coruscant_Alderaan, Endor_Bestine </Trade_Routes>
+
+		<Rebel_Story_Name>  </Rebel_Story_Name>
+        <Empire_Story_Name> </Empire_Story_Name>
+
+		<Home_Location> Rebel, Dantooine </Home_Location>
+		<Home_Location> Empire, Naboo </Home_Location>
+		<Starting_Active_Player> Empire </Starting_Active_Player>
+		<AI_Player_Control> Rebel, None </AI_Player_Control>
+		<AI_Player_Control> Pirates, None </AI_Player_Control>
+
+		<Starting_Credits> Rebel,  100000 </Starting_Credits>
+		<Starting_Tech_Level> Rebel, 5 </Starting_Tech_Level>
+
+		<Starting_Forces> Rebel, Dantooine, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, Dantooine, Power_Generator_R </Starting_Forces>	
+		<Starting_Forces> Rebel, Dantooine, R_Ground_Heavy_Vehicle_Factory </Starting_Forces>
+		<Starting_Forces> Rebel, Dantooine, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Dantooine, Rebel_Tank_Buster_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Dantooine, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Dantooine, Tani_Team </Starting_Forces>
+				
+		<Starting_Forces> Rebel, Endor, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Endor, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Endor, Rebel_Heavy_Tank_Brigade </Starting_Forces>
+		<Starting_Forces> Rebel, Endor, R_Ground_Base_Shield </Starting_Forces>
+		<Starting_Forces> Rebel, Endor, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, Endor, Rebel_Star_Base_3  </Starting_Forces>
+
+		<Starting_Forces> Rebel, Alderaan, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Alderaan, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Alderaan, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Alderaan, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Alderaan, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Alderaan, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Rebel, Alderaan, Rebel_Star_Base_3  </Starting_Forces>	
+		<Starting_Forces> Rebel, Alderaan, R_Ground_Barracks </Starting_Forces>
+
+		<Starting_Forces> Rebel, Tatooine_E3, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Tatooine_E3, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Tatooine_E3, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Tatooine_E3, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Tatooine_E3, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Tatooine_E3, Calamari_Cruiser </Starting_Forces>
+		<Starting_Forces> Rebel, Tatooine_E3, Home_One </Starting_Forces>
+		<Starting_Forces> Rebel, Tatooine_E3, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Tatooine_E3, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Rebel, Tatooine_E3, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Rebel, Tatooine_E3, Rebel_Star_Base_3  </Starting_Forces>
+
+		<Starting_Forces> Rebel, Kamino, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Kamino, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Kamino, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Kamino, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Kamino, Rebel_Tank_Buster_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Kamino, Rebel_Star_Base_1  </Starting_Forces>
+		<Starting_Forces> Rebel, Kamino, R_Ground_Barracks </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Atzerri, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Atzerri, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Atzerri, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Atzerri, Rebel_Infantry_Squad </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Hoth, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Hoth, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Hoth, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Hoth, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Hoth, Rebel_Tank_Buster_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Hoth, R_Ground_Barracks </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Bonadan, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Bonadan, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Bonadan, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Bonadan, Rebel_Infantry_Squad </Starting_Forces>
+
+		<Starting_Forces> Rebel, Tatooine, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Tatooine, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Tatooine, Rebel_X-Wing_Squadron </Starting_Forces>		
+		<Starting_Forces> Rebel, Tatooine, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Tatooine, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Tatooine, Alliance_Assault_Frigate </Starting_Forces>		
+		<Starting_Forces> Rebel, Tatooine, Calamari_Cruiser </Starting_Forces>
+		<Starting_Forces> Rebel, Tatooine, Home_One </Starting_Forces>
+		<Starting_Forces> Rebel, Tatooine, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Tatooine, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Rebel, Tatooine, Corellian_Corvette </Starting_Forces>
+
+		<Starting_Forces> Rebel, Thyferra, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Thyferra, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Thyferra, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Thyferra, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Thyferra, R_Ground_Barracks </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Dagobah, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Dagobah, Rebel_Infantry_Squad </Starting_Forces>	
+				
+		<Starting_Forces> Rebel, Yavin, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Yavin, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Yavin, Rebel_X-Wing_Squadron </Starting_Forces>		
+		<Starting_Forces> Rebel, Yavin, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Yavin, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Yavin, Alliance_Assault_Frigate </Starting_Forces>		
+		<Starting_Forces> Rebel, Yavin, Calamari_Cruiser </Starting_Forces>
+		<Starting_Forces> Rebel, Yavin, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Yavin, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Rebel, Yavin, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Rebel, Yavin, Rebel_Star_Base_3  </Starting_Forces>
+
+		<Starting_Credits> Empire,  100000 </Starting_Credits>
+		<Starting_Tech_Level> Empire, 3 </Starting_Tech_Level>
+
+		<Starting_Forces> Empire, Coruscant, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, E_Ground_Officer_Academy </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, E_Ground_Light_Vehicle_Factory </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Empire_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Empire_Orbital_Long_Range_Scanner </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Imperial_Stormtrooper_Squad </Starting_Forces>
+
+		<Starting_Forces> Empire, Coruscant, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Interdictor_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Victory_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Acclamator_Assault_Ship </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Star_Destroyer </Starting_Forces>
+
+		<Starting_Forces> Empire, Anaxes, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Anaxes, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Anaxes, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Anaxes, Imperial_Stormtrooper_Squad </Starting_Forces>
+
+		<Starting_Forces> Empire, Bespin, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Bespin, Interdictor_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Bespin, Victory_Destroyer </Starting_Forces>
+
+		<Starting_Forces> Empire, Bestine, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Empire, Bestine, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Bestine, Imperial_Stormtrooper_Squad </Starting_Forces>	
+		<Starting_Forces> Empire, Bestine, Imperial_Heavy_Scout_Squad </Starting_Forces>		
+		<Starting_Forces> Empire, Bestine, Imperial_Anti_Infantry_Brigade </Starting_Forces>
+		<Starting_Forces> Empire, Bestine, Imperial_Anti_Infantry_Brigade </Starting_Forces>		
+		<Starting_Forces> Empire, Bestine, Imperial_Armor_Group </Starting_Forces>
+		<Starting_Forces> Empire, Bestine, Imperial_Armor_Group </Starting_Forces>
+		<Starting_Forces> Empire, Bestine, Imperial_Heavy_Assault_Company </Starting_Forces>
+		<Starting_Forces> Empire, Bestine, Darth_Team </Starting_Forces>
+		
+		<Starting_Forces> Empire, Bestine, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Bestine, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Bestine, Interdictor_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Bestine, Victory_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Bestine, Acclamator_Assault_Ship </Starting_Forces>
+		<Starting_Forces> Empire, Bestine, Star_Destroyer_E3 </Starting_Forces>
+		
+		<Starting_Forces> Empire, Kashyyyk, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Kashyyyk, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Kashyyyk, Interdictor_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Kashyyyk, Victory_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Kashyyyk, Acclamator_Assault_Ship </Starting_Forces>
+		<Starting_Forces> Empire, Kashyyyk, Star_Destroyer_E3 </Starting_Forces>
+		<Starting_Forces> Empire, Kashyyyk, Imperial_Stormtrooper_Squad </Starting_Forces>
+		
+		<Starting_Forces> Empire, Byss, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Byss, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Byss, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Byss, Imperial_Stormtrooper_Squad </Starting_Forces>
+
+		<Starting_Forces> Empire, Carida, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Carida, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Carida, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Carida, Imperial_Stormtrooper_Squad </Starting_Forces>
+
+		<Starting_Forces> Empire, AlzocIII, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, AlzocIII, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, AlzocIII, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Empire, AlzocIII, Imperial_Stormtrooper_Squad </Starting_Forces>
+
+		<Starting_Forces> Empire, Kuat, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Kuat, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Kuat, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Kuat, Imperial_Stormtrooper_Squad </Starting_Forces>
+
+		<Starting_Forces> Empire, Korriban, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Empire, Korriban, Imperial_Stormtrooper_Squad </Starting_Forces>
+
+		<Starting_Forces> Empire, Naboo, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Imperial_Stormtrooper_Squad </Starting_Forces>	
+		<Starting_Forces> Empire, Naboo, Imperial_Heavy_Scout_Squad </Starting_Forces>		
+		<Starting_Forces> Empire, Naboo, Imperial_Anti_Infantry_Brigade </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Imperial_Anti_Infantry_Brigade </Starting_Forces>		
+		<Starting_Forces> Empire, Naboo, Imperial_Armor_Group </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Imperial_Armor_Group </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Imperial_Heavy_Assault_Company </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, General_Veers_Team </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Empire_Star_Base_5 </Starting_Forces>
+
+		<Starting_Forces> Empire, Naboo, Death_Star </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Interdictor_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Victory_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Acclamator_Assault_Ship </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Star_Destroyer </Starting_Forces>
+
+		<Starting_Forces> Empire, NalHutta, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, NalHutta, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces> Empire, NalHutta, Imperial_Stormtrooper_Squad </Starting_Forces>
+
+		<Starting_Forces> Empire, Sullust, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Sullust, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Sullust, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Sullust, Imperial_Stormtrooper_Squad </Starting_Forces>
+
+		<!-- Pirate Starting Forces -->
+
+		<Starting_Forces> Pirates, VergessoAsteroids, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, VergessoAsteroids, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, VergessoAsteroids, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, VergessoAsteroids, IPV1_System_Patrol_Craft </Starting_Forces>
+				
+		<Starting_Forces> Pirates, Abregado_Rae, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Pirate_Command_Center </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Pirate_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Pirate_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Pirate_Skiff_Team </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Pirate_Skiff_Team </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, IPV1_System_Patrol_Craft </Starting_Forces>
+		
+		<Starting_Forces> Pirates, Bothawui, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Bothawui, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Bothawui, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Bothawui, Pirate_Command_Center </Starting_Forces>
+		<Starting_Forces> Pirates, Bothawui, Pirate_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Bothawui, Pirate_Soldier_Squad </Starting_Forces>
+
+		<Starting_Forces> Pirates, Ryloth, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Ryloth, Pirate_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Pirates, Ryloth, Pirate_Command_Center </Starting_Forces>
+
+	</Campaign>
+
+
+
+</Campaigns>

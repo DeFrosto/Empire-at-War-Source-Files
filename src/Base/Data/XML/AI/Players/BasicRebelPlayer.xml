@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<AIPlayerType>
+
+	<Name> BasicRebel </Name>
+
+
+	<Personality>
+		<Focus> .5 </Focus>
+		<Aggressiveness> .5 </Aggressiveness>
+	</Personality>
+	
+    <GalacticFreeStoreScript>GalacticFreeStore</GalacticFreeStoreScript>
+    <SpaceFreeStoreScript>BusyTacticalFreeStore</SpaceFreeStoreScript>
+    <LandFreeStoreScript>BusyTacticalFreeStore</LandFreeStoreScript>
+	
+	<GoalProposalFunctionSets>
+		SystemFunctions
+		BasicOffensiveGalacticSet
+		BasicDefensiveGalacticSet
+		BasicInformationGalacticSet
+		BasicInfrastructureGalacticSet
+		BasicOffensiveSpaceSet
+		BasicLandGoalSet
+		SandboxEventsSet
+	</GoalProposalFunctionSets>
+	
+	<Templates>
+        <Space>
+            Test_Space
+            Disable_Sandbox_Events_Template
+        </Space>
+        <Land>
+            Test_Land
+            Disable_Sandbox_Events_Template
+        </Land>
+		<Galactic>
+			Basic_Rebel_Default
+			Disable_Sandbox_Events_Template
+			Shutdown_Offense
+		</Galactic>
+	</Templates>
+
+	<Difficulty_Adjustments>
+		<Easy>Easy_Default</Easy>
+		<Normal>Normal_Default</Normal>
+		<Hard>Hard_Default</Hard>
+	</Difficulty_Adjustments>
+	
+</AIPlayerType>

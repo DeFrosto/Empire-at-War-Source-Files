@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+
+<Equations>
+
+	<Is_Sandbox_Event_Allowed>
+		(Game.Age > 111.0) *
+		(Game.TimeSinceStoryPopup > 133.0) *
+		(4 > Game.ActiveStoryGoalCount)
+	</Is_Sandbox_Event_Allowed>
+
+	<!-- Disable this mission - people don't like it -->
+	<!--<Trigger_Contrived_Attack>
+		Function_Is_Sandbox_Event_Allowed.Evaluate *
+		(Variable_Self.PlanetsControlledUnnormalized > 3) *
+		(Variable_Enemy.PlanetsControlledUnnormalized > 1) *
+		(Variable_Target.IsFaction {Parameter_Faction = "Rebel", Parameter_Faction = "Empire"}) *
+		(Variable_Target.EnemyForce.SpaceTotalUnnormalized > 10000) *
+		(Function_Is_Connected_To_Me.Evaluate) *
+		(Game.Age > 300.0)
+	</Trigger_Contrived_Attack>-->
+	
+	<Trigger_Contrived_Attack>0.0</Trigger_Contrived_Attack>
+	
+
+	<Trigger_Trap_Galactic>
+		Function_Is_Sandbox_Event_Allowed.Evaluate *
+		Function_Is_Connected_To_Enemy.Evaluate *
+		(750 > Variable_Target.FriendlyForce.GroundTotalUnnormalized) *
+		(1500 > Variable_Target.FriendlyForce.SpaceTotalUnnormalized) * 
+		Variable_Target.IsSurfaceAccessible
+	</Trigger_Trap_Galactic>
+	
+	<Trigger_Trap_Land>
+		Script_EvaluateInGalacticContext.Evaluate{Parameter_Script_String = "Helper_Trap_Land_Check_Galactic_Flags"}
+	</Trigger_Trap_Land>
+	
+	<Helper_Trap_Land_Check_Galactic_Flags>
+		Variable_Target.StoryTrigger {Parameter_Name = "TRAP_GALACTIC_NOTIFICATION_01"}
+	</Helper_Trap_Land_Check_Galactic_Flags>
+
+	<!-- Cutting missions that flip player planets -->
+	<!--<Trigger_Planet_Ownership_Flip>
+		Function_Is_Sandbox_Event_Allowed.Evaluate *
+		(7000 > Variable_Target.EnemyForce.GroundTotalUnnormalized) *
+		(25000 > Variable_Target.EnemyForce.SpaceTotalUnnormalized) *
+		(1.0 - Variable_Target.HasIndigenousUnits {Parameter_Type = "Ewok_Hunter", 
+												Parameter_Type = "Gungan_Warrior", 
+												Parameter_Type = "Wookie_Warrior",
+												Parameter_Type = "Jawa_Scout"}) *
+		(1.0 - Variable_Target.Type.IsType {Parameter_Type = "CORUSCANT"}) *
+		(Variable_Target.IsFaction {Parameter_Faction = "Rebel", Parameter_Faction = "Empire"}) *
+		(Variable_Enemy.PlanetsControlled >= 3)
+	</Trigger_Planet_Ownership_Flip>-->
+	
+	<Trigger_Planet_Ownership_Flip>0.0</Trigger_Planet_Ownership_Flip>
+
+	<Trigger_Fleet_Rampage>
+		Function_Is_Sandbox_Event_Allowed.Evaluate *
+		(Variable_Target.EnemyForce.SpaceTotalUnnormalized > 0) *
+		(Variable_Target.IsFaction {Parameter_Faction = "Rebel", Parameter_Faction = "Empire"}) *
+		(Function_Has_Accuser.Evaluate + Function_Has_Home_One.Evaluate) *
+ 		(Variable_Enemy.PlanetsControlled >= 5)
+	</Trigger_Fleet_Rampage>
+
+	<Has_Accuser>
+		Variable_Self.HasUnit {Parameter_Type = "Accuser_Star_Destroyer"}
+	</Has_Accuser>
+	
+	<Has_Home_One>
+		Variable_Self.HasUnit {Parameter_Type = "Home_One"}
+	</Has_Home_One>
+
+	<Trigger_Hero_Gathering>
+		Function_Is_Sandbox_Event_Allowed.Evaluate *
+		(1.0 - Variable_Target.Type.IsType {Parameter_Type = "CORUSCANT"}) *
+		(Variable_Target.GroundbaseLevelUnnormalized >= 3) *
+		(Variable_Target.FriendlyForce.GroundTotalUnnormalized >= 20000) *
+		Function_Has_Heroes_For_Gathering.Evaluate
+	</Trigger_Hero_Gathering>
+
+	<Has_Heroes_For_Gathering>
+		(Variable_Self.HasUnit {Parameter_Type = "Darth_Team"} * 
+		Variable_Self.HasUnit {Parameter_Type = "General_Veers_Team"} * 
+		Variable_Self.HasUnit {Parameter_Type = "Boba_Fett_Team"}) +
+		(Variable_Self.HasUnit {Parameter_Type = "Obi_Wan_Team"} *
+		Variable_Self.HasUnit {Parameter_Type = "Han_Solo_Team"})
+	</Has_Heroes_For_Gathering>
+
+</Equations>
+

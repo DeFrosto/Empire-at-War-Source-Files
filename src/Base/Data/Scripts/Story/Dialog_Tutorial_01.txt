@@ -1,0 +1,141 @@
+   
+[CHAPTER 0]
+
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+TEXT TEXT_STORY_TUTORIAL_REBEL_ACT01_66
+# Find the missing patrol squad.
+
+NEWLINE 1
+
+TEXT TEXT_SPEECH_TUTORIAL_REBEL_ACT01_04  
+# Hint: Use your squad to search for the lost patrol by selecting them with the left-mouse-button, 
+# and then right-clicking on the location where you want them to move.  
+
+# DIALOG TUTORIAL_REBEL_ACT01_04
+
+
+
+[CHAPTER 1]
+
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+TEXT TEXT_STORY_TUTORIAL_REBEL_ACT01_77
+# Find the jamming device.
+
+NEWLINE 1
+
+TEXT TEXT_SPEECH_TUTORIAL_REBEL_ACT01_10
+# Hint: Take control of both squads by holding down the left mouse button and dragging a box around them. 
+# You can select several units or your whole army this way.  
+# Locate the jamming device by exploring the surrounding area with these units.  
+
+# DIALOG TUTORIAL_REBEL_ACT01_10
+
+
+
+[CHAPTER 2]
+
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+TEXT TEXT_STORY_TUTORIAL_REBEL_ACT01_67
+# Destroy the jamming device.
+
+NEWLINE 1
+
+TEXT TEXT_SPEECH_TUTORIAL_REBEL_ACT01_13
+# Hint: Use the selected Rebel units to destroy the jamming device. 
+# Hover your mouse over the jamming device and right-click on it to attack. 
+
+# DIALOG TUTORIAL_REBEL_ACT01_13
+
+
+[CHAPTER 3]
+
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+TEXT TEXT_STORY_TUTORIAL_REBEL_ACT01_68
+# Advance to the Rebel base.
+
+NEWLINE 1
+
+TEXT TEXT_SPEECH_TUTORIAL_REBEL_ACT01_21
+# Hint: To move your selected troops to the Rebel base, 
+# you can give them movement orders by right-clicking directly on the battlefield map or on the mini-map. 
+
+# DIALOG TUTORIAL_REBEL_ACT01_21
+
+
+[CHAPTER 4]
+
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+TEXT TEXT_STORY_TUTORIAL_REBEL_ACT01_26A
+# Construct a Turret.
+TEXT TEXT_STORY_TUTORIAL_REBEL_ACT01_69
+# Construct a Bacta Healing Station.
+
+NEWLINE 1
+
+TEXT TEXT_SPEECH_TUTORIAL_REBEL_ACT01_28
+# Hint: Build defensive structures to prepare for the incoming Imperial attack by right-clicking on the Build Pads located near the base walls, 
+# and then selecting a defensive structure to be built.  
+# Currently, you can build a turret and a bacta healing station, but more structures will be available later in the game. 
+
+# DIALOG TUTORIAL_REBEL_ACT01_28
+
+
+[CHAPTER 5]
+
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+TEXT TEXT_STORY_TUTORIAL_REBEL_ACT01_86
+# Capture the two Reinforcement Points.
+
+NEWLINE 1
+
+TEXT TEXT_SPEECH_TUTORIAL_REBEL_ACT01_50
+# Hint: Capturing the Reinforcement points will prevent the enemy from landing even more troops.  
+# To capture a Reinforcement Point, you must eliminate all enemy units in the area and remain near the Reinforcement point until it turns green.  
+# Note that every Reinforcement Point has a limit to how many units it can accomodate, denoted by the number shown.  
+# In Tutorial 5, we'll give you the opportunity to bring reinforcements into a land battle.
+
+# DIALOG TUTORIAL_REBEL_ACT01_50
+
+
+[CHAPTER 6]
+
+# Main Text
+WAIT 500
+SFX Button_Press
+
+TEXTCOLOR 000 193 091 255
+TEXT TEXT_STORY_TUTORIAL_REBEL_ACT01_73
+# Retreat from Kashyyyk.
+
+NEWLINE 1
+
+TEXT TEXT_SPEECH_TUTORIAL_REBEL_ACT01_60
+# Hint: Retreating allows you to save your units from certain destruction whenever you are faced with overwhelming odds.  
+# Remember - you can always return to a battle later with additional units.  
+# Select the retreat button on your command bar to take your remaining forces and regroup them on another planet.
+
+# DIALOG TUTORIAL_REBEL_ACT01_60
