@@ -1,0 +1,25 @@
+///////////////////////////////////////////////////////////////////////////////////////////////////
+// Petroglyph Confidential Source Code -- Do Not Distribute
+///////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//          $File: //depot/Projects/StarWars_Expansion/Art/Shaders/AlamoEngine.fx $
+//          $Author: Andre_Arsenault $
+//          $DateTime: 2006/02/15 15:33:33 $
+//          $Revision: #1 $
+//
+///////////////////////////////////////////////////////////////////////////////////////////////////
+/*
+	
+	Alamo engine FX file.  This file is just used as a shader to set all of the shared parameters.
+    
+*/
+
+#include "AlamoEngine.fxh"
+
+
+technique t0
+<
+	string LOD="FF";
+>
+{
+};
